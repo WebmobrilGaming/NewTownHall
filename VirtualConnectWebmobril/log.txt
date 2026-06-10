@@ -1,0 +1,1325 @@
+[05/10/23 12:01:02:059][440224][I]:[AGS]: Agora SDK ver 4.1.0 build 248833
+[05/10/23 12:01:02:059][440224][I]:[AGS]: Agora SDK git ver: and branch:
+[05/10/23 12:01:02:059][440224][U]:(00005078): RtcEngine::initialize(this:000001D146E258E0, context:(eventHandler:000001D13DEF33E0, context:0000000000000000))
+[05/10/23 12:01:02:059][440224][A]:(00005079):   RtcEngine::initializeEx(this:000001D146E258E0, context:(isPassThruMode:0 maxOutputBitrateKpbs:30000, channelProfile:1, audioScenario:0, areaCode:4294967295))
+[05/10/23 12:01:02:059][440224][A]:(00005080):     RtcEngine::startService(this:000001D146E258E0, context:(isPassThruMode:0, maxOutputBitrateKpbs:30000))
+[05/10/23 12:01:02:059][440224][A]:(00005081):       RtcEngine::initLowLevelModules(this:000001D146E258E0, void)
+[05/10/23 12:01:02:059][440224][A]:(00005082): <lambda_c89c420a8986cd2317368d3d302cc745>::operator (this:000001D154433820, configEx:(engineType:0, enableAudioProcessor:1, enableAudioDevice:1, enableVideo:1, context:0000000000000000, bitrateConstraints:(min_bitrate_bps:0, start_bitrate_bps:300000, min_bitrate_bps:0), logDir: ./log.txt, domainLimit:0))
+[05/10/23 12:01:02:061][442664][I]:[BW]: BaseWorker (AgVideoSrcDev) started: 000001D164139080
+[05/10/23 12:01:02:064][440224][I]:[CM]: succeeded to load from Cache File Manager in DnsCacheDocument::Unpack(), elapsed 0
+[05/10/23 12:01:02:064][440224][I]:[PIP]: AreaCode set by parameter: -1
+[05/10/23 12:01:02:076][440224][I]:[network]: 'NETWORK_UNKOWN' -> 'WIFI' ipv4/v6 '192.******.112'/'2405:******:6179' gw '192.******.1'/'fe80:******:5a69%10' subtype 0 level 4 ssid '****' bssid '****' rssi -62 asu 79
+[05/10/23 12:01:02:076][440224][I]:[ipstack]: start ipv4 detecting
+[05/10/23 12:01:02:076][440224][I]:[ap-base] initialize ap list
+[05/10/23 12:01:02:076][440224][I]:[ap-base] append predefined ip: 101.******.165, 13.******.184, 184.******.217, 3.******.239, 168.******.216, 20.******.143, 15.******.208, 18.******.254, 54.******.11, 123.******.221, 18.******.64, 52.******.111, 52.******.238, 3.******.108, 3.******.253, 18.******.59, 54.******.178, 
+[05/10/23 12:01:02:076][440224][I]:[ap-base] append predefined ip: 47.******.93, 3.******.78, 50.******.121, 35.******.187, 54.******.72, 15.******.129, 13.******.235, 199.******.132, 52.******.59, 52.******.170, 52.******.244, 13.******.196, 13.******.137, 23.******.152, 112.******.46, 106.******.130, 118.******.38, 2600:******:121, 2406:******:59, 
+[05/10/23 12:01:02:076][440224][I]:[ap-base] append predefined ip: 47.******.93, 3.******.78, 50.******.121, 35.******.187, 54.******.72, 15.******.129, 13.******.235, 199.******.132, 52.******.59, 52.******.170, 52.******.244, 13.******.196, 13.******.137, 23.******.152, 112.******.46, 106.******.130, 118.******.38, 2600:******:121, 2406:******:59, 
+[05/10/23 12:01:02:077][440224][I]:[ap-base] queryDns ap-tds-tls.agora.io
+[05/10/23 12:01:02:081][440224][I]:[ap-base] queryDns ap3-tds.agora.io
+[05/10/23 12:01:02:083][440224][I]:[ap-base] queryDns ap3-tds.agora.io
+[05/10/23 12:01:02:087][440224][I]:[CS]: initialized ap list
+[05/10/23 12:01:02:087][440224][I]:[ap-6] client: SendRequest
+[05/10/23 12:01:02:087][440224][I]:[ap-6] client: DoProcess, now: 1683700262087, retry times: 0
+[05/10/23 12:01:02:088][440224][I]:create session builder 000001D16B41C310
+[05/10/23 12:01:02:088][440224][I]:[ap-6] send message to: 138.******.131:8443, with opid: 361848306, transport type = 5, send ts = 1683700262087
+[05/10/23 12:01:02:088][440224][I]:create session builder 000001D1470BFB20
+[05/10/23 12:01:02:088][440224][I]:[ap-6] send message to: 103.******.16:8443, with opid: 361848307, transport type = 5, send ts = 1683700262087
+[05/10/23 12:01:02:088][440224][I]:create session builder 000001D1470BEEF0
+[05/10/23 12:01:02:088][440224][I]:[ap-6] send message to: 164.******.244:8443, with opid: 361848308, transport type = 5, send ts = 1683700262087
+[05/10/23 12:01:02:088][440224][I]:connecting to 164.******.59:8443 handle 000001D164412EF0, 16724
+[05/10/23 12:01:02:088][440224][I]:[ap-6] connect to: 164.******.59:8443, with opid: 361848309, transport type = 1, send ts = 1683700262087
+[05/10/23 12:01:02:088][440224][I]:[CS]: Send AP Request, service_id = 6
+[05/10/23 12:01:02:088][440224][I]:[ap-base] initialize ap list
+[05/10/23 12:01:02:088][440224][I]:[ap-base] append predefined ip: 101.******.165, 13.******.184, 184.******.217, 3.******.239, 168.******.216, 20.******.143, 15.******.208, 18.******.254, 54.******.11, 123.******.221, 18.******.64, 52.******.111, 52.******.238, 3.******.108, 3.******.253, 18.******.59, 54.******.178, 
+[05/10/23 12:01:02:088][440224][I]:[ap-base] append predefined ip: 47.******.93, 3.******.78, 50.******.121, 35.******.187, 54.******.72, 15.******.129, 13.******.235, 199.******.132, 52.******.59, 52.******.170, 52.******.244, 13.******.196, 13.******.137, 23.******.152, 112.******.46, 106.******.130, 118.******.38, 2600:******:121, 2406:******:59, 
+[05/10/23 12:01:02:088][440224][I]:[ap-base] append predefined ip: 47.******.93, 3.******.78, 50.******.121, 35.******.187, 54.******.72, 15.******.129, 13.******.235, 199.******.132, 52.******.59, 52.******.170, 52.******.244, 13.******.196, 13.******.137, 23.******.152, 112.******.46, 106.******.130, 118.******.38, 2600:******:121, 2406:******:59, 
+[05/10/23 12:01:02:088][440224][I]:[ap-base] queryDns ap3-tls.agora.io
+[05/10/23 12:01:02:091][440224][I]:[ap-base] queryDns ap5.agora.io
+[05/10/23 12:01:02:095][440224][I]:[ap-base] queryDns ap1-ipv6.agora.io
+[05/10/23 12:01:02:100][440224][I]:[ap-5] client: SendRequest
+[05/10/23 12:01:02:100][440224][I]:[ap-5] client: DoProcess, now: 1683700262100, retry times: 0
+[05/10/23 12:01:02:100][440224][I]:create session builder 000001D1470C0750
+[05/10/23 12:01:02:100][440224][I]:[ap-5] send message to: 122.******.142:8443, with opid: 496818029, transport type = 5, send ts = 1683700262100
+[05/10/23 12:01:02:100][440224][I]:connecting to 164.******.57:8443 handle 000001D164413730, 17052
+[05/10/23 12:01:02:100][440224][I]:[ap-5] connect to: 164.******.57:8443, with opid: 496818030, transport type = 1, send ts = 1683700262100
+[05/10/23 12:01:02:100][440224][I]:[rlbs] Send AP Request, service_id = 5
+[05/10/23 12:01:02:100][440224][I]:[RS] queryDns domain is report-edge.agora.io
+[05/10/23 12:01:02:100][440224][I]:[RS]: dns parse result code: 0, servers size: 2
+[05/10/23 12:01:02:100][440224][I]:[rs] updateServers 129.******.85:8130, priority 2
+[05/10/23 12:01:02:100][440224][I]:[rs] updateServers 129.******.119:8130, priority 2
+[05/10/23 12:01:02:104][440224][I]:[xdump]: xdump setting, enabled:1, upload enabled:1, save enabled:1, use config:1
+[05/10/23 12:01:02:112][440224][I]:ExtensionControlImpl::Extension Control is initialized 000001D13DF03D30
+[05/10/23 12:01:02:112][440224][I]:ExtensionControlImpl::Get Extension Control 000001D13DF03D30
+[05/10/23 12:01:02:112][440224][I]:ExtensionControlImpl::Get Extension Control 000001D13DF03D30
+[05/10/23 12:01:02:112][440224][I]:ExtensionProviderRegistry::extension:agora.builtin%%noise_suppression_io_agora_builtin_recording_local_playback exist
+[05/10/23 12:01:02:112][440224][I]:ExtensionControlImpl::Get Extension Control 000001D13DF03D30
+[05/10/23 12:01:02:112][440224][I]:ExtensionProviderRegistry::extension:agora.builtin%%equalization_io_agora_builtin_recording_local_playback exist
+[05/10/23 12:01:02:112][440224][I]:ExtensionControlImpl::Get Extension Control 000001D13DF03D30
+[05/10/23 12:01:02:112][440224][I]:ExtensionProviderRegistry::extension:agora.builtin%%pitch_io_agora_builtin_recording_local_playback exist
+[05/10/23 12:01:02:112][440224][I]:ExtensionControlImpl::Get Extension Control 000001D13DF03D30
+[05/10/23 12:01:02:112][440224][I]:ExtensionProviderRegistry::extension:agora.builtin%%local_voice_reverb_io_agora_builtin_recording_local_playback exist
+[05/10/23 12:01:02:112][440224][I]:ExtensionControlImpl::Get Extension Control 000001D13DF03D30
+[05/10/23 12:01:02:112][440224][I]:ExtensionProviderRegistry::extension:agora.builtin%%equalization_io_agora_builtin_post_processing exist
+[05/10/23 12:01:02:112][440224][I]:ExtensionControlImpl::Get Extension Control 000001D13DF03D30
+[05/10/23 12:01:02:112][440224][I]:ExtensionProviderRegistry::extension:agora.builtin%%pitch_io_agora_builtin_post_processing exist
+[05/10/23 12:01:02:112][440224][I]:ExtensionControlImpl::Get Extension Control 000001D13DF03D30
+[05/10/23 12:01:02:112][440224][I]:ExtensionProviderRegistry::extension:agora.builtin%%local_voice_reverb_io_agora_builtin_post_processing exist
+[05/10/23 12:01:02:112][440224][I]:ExtensionControlImpl::Get Extension Control 000001D13DF03D30
+[05/10/23 12:01:02:112][440224][I]:ExtensionProviderRegistry::extension:agora.builtin%%sound_position_io_agora_builtin_remote_user_playback exist
+[05/10/23 12:01:02:112][440224][I]:ExtensionControlImpl::Get Extension Control 000001D13DF03D30
+[05/10/23 12:01:02:112][440224][I]:ExtensionProviderRegistry::extension:agora.builtin%%sound_position_io_agora_builtin_pcm_source exist
+[05/10/23 12:01:02:112][440224][I]:ExtensionControlImpl::Get Extension Control 000001D13DF03D30
+[05/10/23 12:01:02:112][440224][I]:ExtensionProviderRegistry::extension:agora.builtin%%pitch_io_agora_builtin_pcm_source exist
+[05/10/23 12:01:02:112][440224][I]:ExtensionControlImpl::Get Extension Control 000001D13DF03D30
+[05/10/23 12:01:02:112][440224][I]:ExtensionProviderRegistry::extension:agora.builtin%%headphone_equalizer_io_agora_builtin_remote_mixed_playback exist
+[05/10/23 12:01:02:112][440224][I]:metering collector is working, internal = 10s.
+[05/10/23 12:01:02:112][440224][A]:(00005083):   AgoraService::setLogFilter(this:000001D154433820, filters:15)
+[05/10/23 12:01:02:116][440224][I]:[RERA]: initialize event rule for space id:0
+[05/10/23 12:01:02:116][440224][I]:create session builder 000001D16B41AEC0
+[05/10/23 12:01:02:116][440224][I]:audio options factoryname ==default: vector===5
+[05/10/23 12:01:02:116][440224][I]:audio options factoryname ==default: vector===5
+[05/10/23 12:01:02:116][440224][I]:[AuEng]: Audio layer get from audio options: 0
+[05/10/23 12:01:02:116][440224][I]:(audio_device_impl.cc:54): webrtc::AudioDeviceModule::Create
+[05/10/23 12:01:02:117][440224][I]:(audio_device_buffer.cc:66): AudioDeviceBuffer::ctor
+[05/10/23 12:01:02:117][440224][I]:(audio_device_impl.cc:90): webrtc::AudioDeviceModuleImpl::AudioDeviceModuleImpl
+[05/10/23 12:01:02:117][440224][I]:(audio_device_impl.cc:95): webrtc::AudioDeviceModuleImpl::CheckPlatform
+[05/10/23 12:01:02:117][440224][I]:(audio_device_impl.cc:100): current platform is Win32
+[05/10/23 12:01:02:117][440224][I]:(audio_device_impl.cc:125): webrtc::AudioDeviceModuleImpl::CreatePlatformSpecificObjects
+[05/10/23 12:01:02:117][440224][I]:(audio_device_impl.cc:1413): webrtc::AudioDeviceModuleImpl::PlatformAudioLayer
+[05/10/23 12:01:02:117][440224][I]:(audio_device_impl.cc:147): Attempting to use the Windows Core Audio APIs...
+[05/10/23 12:01:02:118][440224][I]:(audio_device_core_win.cc:344): [WIN_CORE] CoreAudioIsSupported: 
+[05/10/23 12:01:02:118][440224][I]:(audio_device_core_win.cc:451): [WIN_CORE] AudioDeviceWindowsCoreChromium: 
+[05/10/23 12:01:02:118][440224][I]:(audio_device_generic_worker_wrapper.cc:66): Windows Core Audio APIs will be utilized
+[05/10/23 12:01:02:118][440224][I]:(audio_device_core_win.cc:4046): [WIN_CORE] EnableMicrophoneBoost: enable microphone boost: 1
+[05/10/23 12:01:02:118][440224][I]:(audio_device_impl.cc:227): webrtc::AudioDeviceModuleImpl::AttachAudioBuffer
+[05/10/23 12:01:02:118][440224][W]:(audio_device_generic_worker_wrapper.cc:1146): AttachAudioBuffer
+[05/10/23 12:01:02:118][378368][I]:[BW]: BaseWorker (AudioDeviceWorker) started: 000001D05F958D00
+[05/10/23 12:01:02:118][378368][I]:(audio_device_buffer.cc:212): SetRecordingSampleRate(0)
+[05/10/23 12:01:02:118][378368][I]:(audio_device_buffer.cc:225): SetPlayoutSampleRate(0)
+[05/10/23 12:01:02:118][378368][I]:(audio_device_buffer.cc:238): SetLoopbackSampleRate(0)
+[05/10/23 12:01:02:118][378368][I]:(audio_device_buffer.cc:260): SetRecordingChannels(0)
+[05/10/23 12:01:02:118][378368][I]:(audio_device_buffer.cc:267): SetPlayoutChannels(0)
+[05/10/23 12:01:02:118][378368][I]:(audio_device_buffer.cc:274): SetLoopbackChannels(0)
+[05/10/23 12:01:02:118][440224][I]:(audio_device_impl.cc:1132): webrtc::AudioDeviceModuleImpl::RegisterAudioDeviceEventObserver
+[05/10/23 12:01:02:118][440224][I]:(audio_device_generic_worker_wrapper.cc:1158): webrtc::AudioDeviceGenericWorkerWrapper::RegisterAudioDeviceEventObserver
+[05/10/23 12:01:02:120][355956][I]:[BW]: BaseWorker (AudioDeviceMalfunctionMonitor) started: 000001D1641392D0
+[05/10/23 12:01:02:121][440224][I]:__cdecl agora::rtc::AudioDeviceEventManager::AudioDeviceEventManager(class agora::agora_refptr<class webrtc::AudioDeviceModule>): adem ctor 
+[05/10/23 12:01:02:121][440224][I]:(audio_device_impl.cc:333): webrtc::AudioDeviceModuleImpl::Init
+[05/10/23 12:01:02:121][440224][W]:(audio_device_generic_worker_wrapper.cc:237): Init
+[05/10/23 12:01:02:121][378368][I]:(audio_device_core_win.cc:3343): [WIN_CORE] _EnumerateEndpointDevicesAll: dataFlow: 0
+[05/10/23 12:01:02:123][378368][I]:(audio_device_core_win.cc:3433): PlayoutDevice: Headphones (Noise Flair)(default)
+[05/10/23 12:01:02:123][378368][I]:(audio_device_core_win.cc:3434): PlayoutDevice: Noise Flair
+[05/10/23 12:01:02:123][378368][I]:(audio_device_core_win.cc:3435): PlayoutDevice: {0.0.0.00000000}.{73158451-7fd3-431f-a1b5-27b5fe38fffb}
+[05/10/23 12:01:02:123][378368][I]:(audio_device_core_win.cc:3436): PlayoutDevice: defaultDevice1,usbDevice: 0
+[05/10/23 12:01:02:123][378368][I]:(audio_device_core_win.cc:3439): ==============
+[05/10/23 12:01:02:123][378368][I]:(audio_device_core_win.cc:3433): PlayoutDevice: Speakers (Realtek(R) Audio)
+[05/10/23 12:01:02:123][378368][I]:(audio_device_core_win.cc:3434): PlayoutDevice: Realtek(R) Audio
+[05/10/23 12:01:02:123][378368][I]:(audio_device_core_win.cc:3435): PlayoutDevice: {0.0.0.00000000}.{8f5e60e0-1cc7-44da-a28a-28c5f92021d3}
+[05/10/23 12:01:02:123][378368][I]:(audio_device_core_win.cc:3436): PlayoutDevice: defaultDevice0,usbDevice: 0
+[05/10/23 12:01:02:123][378368][I]:(audio_device_core_win.cc:3439): ==============
+[05/10/23 12:01:02:123][378368][I]:(audio_device_core_win.cc:3433): PlayoutDevice: 1 - DELL S2421HN (AMD High Definition Audio Device)
+[05/10/23 12:01:02:123][378368][I]:(audio_device_core_win.cc:3434): PlayoutDevice: AMD High Definition Audio Device
+[05/10/23 12:01:02:123][378368][I]:(audio_device_core_win.cc:3435): PlayoutDevice: {0.0.0.00000000}.{b0d7038c-bf15-458e-97d0-4a1a10278b6e}
+[05/10/23 12:01:02:123][378368][I]:(audio_device_core_win.cc:3436): PlayoutDevice: defaultDevice0,usbDevice: 0
+[05/10/23 12:01:02:123][378368][I]:(audio_device_core_win.cc:3439): ==============
+[05/10/23 12:01:02:123][378368][I]:(audio_device_core_win.cc:3343): [WIN_CORE] _EnumerateEndpointDevicesAll: dataFlow: 1
+[05/10/23 12:01:02:125][378368][I]:(audio_device_core_win.cc:3433): RecordDevice: Microphone (Lenovo FHD Webcam Audio)(default)
+[05/10/23 12:01:02:125][378368][I]:(audio_device_core_win.cc:3434): RecordDevice: Lenovo FHD Webcam Audio
+[05/10/23 12:01:02:125][378368][I]:(audio_device_core_win.cc:3435): RecordDevice: {0.0.1.00000000}.{40150e2d-101e-47e5-98ba-1781acf06e90}
+[05/10/23 12:01:02:125][378368][I]:(audio_device_core_win.cc:3436): RecordDevice: defaultDevice1,usbDevice: 0
+[05/10/23 12:01:02:125][378368][I]:(audio_device_core_win.cc:3439): ==============
+[05/10/23 12:01:02:125][378368][I]:(audio_device_core_win.cc:3433): RecordDevice: Microphone Array (Realtek(R) Audio)
+[05/10/23 12:01:02:125][378368][I]:(audio_device_core_win.cc:3434): RecordDevice: Realtek(R) Audio
+[05/10/23 12:01:02:125][378368][I]:(audio_device_core_win.cc:3435): RecordDevice: {0.0.1.00000000}.{6a6d251a-4e3c-4410-80ad-c53dfefd0bd6}
+[05/10/23 12:01:02:125][378368][I]:(audio_device_core_win.cc:3436): RecordDevice: defaultDevice0,usbDevice: 0
+[05/10/23 12:01:02:125][378368][I]:(audio_device_core_win.cc:3439): ==============
+[05/10/23 12:01:02:125][378368][I]:(audio_device_core_win.cc:3433): RecordDevice: Headset (Noise Flair)
+[05/10/23 12:01:02:125][378368][I]:(audio_device_core_win.cc:3434): RecordDevice: Noise Flair
+[05/10/23 12:01:02:125][378368][I]:(audio_device_core_win.cc:3435): RecordDevice: {0.0.1.00000000}.{b74ed376-00ff-4933-b07f-fa8ca6b4d52e}
+[05/10/23 12:01:02:125][378368][I]:(audio_device_core_win.cc:3436): RecordDevice: defaultDevice0,usbDevice: 0
+[05/10/23 12:01:02:125][378368][I]:(audio_device_core_win.cc:3439): ==============
+[05/10/23 12:01:02:125][440224][I]:(audio_device_impl.cc:750): webrtc::AudioDeviceModuleImpl::SetPlayoutDevice
+[05/10/23 12:01:02:126][378368][I]:(audio_device_core_win.cc:1555): [WIN_CORE] SetPlayoutDevice: SetPlayoutDevice with type -2
+[05/10/23 12:01:02:126][440224][I]:(audio_device_impl.cc:371): webrtc::AudioDeviceModuleImpl::InitSpeaker
+[05/10/23 12:01:02:126][440224][I]:(audio_device_core_win.cc:3291): [WIN_CORE] _GetDefaultDevice: 
+[05/10/23 12:01:02:130][440224][I]:(audio_device_impl.cc:648): webrtc::AudioDeviceModuleImpl::StereoPlayoutIsAvailable
+[05/10/23 12:01:02:130][440224][I]:(audio_device_impl.cc:659): output: 1
+[05/10/23 12:01:02:130][440224][I]:(audio_device_impl.cc:664): webrtc::AudioDeviceModuleImpl::SetStereoPlayout(1)
+[05/10/23 12:01:02:130][440224][I]:(audio_device_buffer.cc:267): SetPlayoutChannels(2)
+[05/10/23 12:01:02:130][440224][I]:(audio_device_impl.cc:778): webrtc::AudioDeviceModuleImpl::SetRecordingDevice
+[05/10/23 12:01:02:130][378368][I]:(audio_device_core_win.cc:1853): [WIN_CORE] SetRecordingDevice: SetRecordingDevice with type -2
+[05/10/23 12:01:02:130][440224][I]:(audio_device_impl.cc:379): webrtc::AudioDeviceModuleImpl::InitMicrophone
+[05/10/23 12:01:02:130][440224][I]:(audio_device_core_win.cc:3291): [WIN_CORE] _GetDefaultDevice: 
+[05/10/23 12:01:02:133][440224][I]:(audio_device_impl.cc:596): webrtc::AudioDeviceModuleImpl::StereoRecordingIsAvailable
+[05/10/23 12:01:02:133][440224][I]:(audio_device_impl.cc:607): output: 1
+[05/10/23 12:01:02:133][440224][I]:(audio_device_impl.cc:612): webrtc::AudioDeviceModuleImpl::SetStereoRecording(1)
+[05/10/23 12:01:02:133][440224][I]:(audio_device_buffer.cc:260): SetRecordingChannels(2)
+[05/10/23 12:01:02:133][440224][I]:[RsmpStc]: ResampleStatistic::ctor 000001D164378820
+[05/10/23 12:01:02:133][440224][I]:[RsmpStc]: ResampleStatistic::ctor 000001D1643787D0
+[05/10/23 12:01:02:133][440224][I]:[ATWT]: set enable need more play data, id: real_adm_audio_transport_wrapper_tee, enable: 1 
+[05/10/23 12:01:02:133][440224][I]:[ATWT]: set enable need more play data, id: fake_adm_audio_transport_wrapper_tee, enable: 0 
+[05/10/23 12:01:02:133][440224][I]:fixed_gain_controller.cc:59 - Gain to apply: 0 db.
+[05/10/23 12:01:02:133][440224][I]:[AFC]: AudioFilterCompositeWithExtension name:remote_mixed_playback, extensionTypeSet size:1
+[05/10/23 12:01:02:133][440224][I]:[AFC]: create extension audio filters, extensionTypeSet size:1
+[05/10/23 12:01:02:133][440224][I]:[AFC]: create extension audio filter, extension type:10006 extension_list size:1
+[05/10/23 12:01:02:133][440224][I]:[AFC]: create extension audio filter, extension type:10006 internal_id:agora.builtin%%headphone_equalizer_io_agora_builtin_remote_mixed_playback filter:headphone_equalizer_io_agora_builtin_remote_mixed_playback auto_enable:0
+[05/10/23 12:01:02:133][440224][I]:[AFC]: add extension audio filter:headphone_equalizer_io_agora_builtin_remote_mixed_playback to filter composite:remote_mixed_playback
+[05/10/23 12:01:02:133][440224][A]:(00005084):   IAudioFilterComposite::addAudioFilter(this:000001D05F99FA10, filter: 000001D063043960)
+[05/10/23 12:01:02:133][440224][I]:WebrtcAudioEngine: CreateTxMixer
+[05/10/23 12:01:02:135][5948][I]:[BW]: BaseWorker (AgAudioSender) started: 000001D1165E9DF0
+[05/10/23 12:01:02:135][440224][I]:audio_processing_impl.cc:316 - AudioProcessingImpl::ctor(0x1D164C7BB00)
+[05/10/23 12:01:02:135][440224][I]:echo_cancellation_impl.cc:223 - EchoCancellationImpl::ctor(0x1D05E020820)
+[05/10/23 12:01:02:135][440224][I]:ains extension not enable
+[05/10/23 12:01:02:135][440224][I]:ains factory is nullptr
+[05/10/23 12:01:02:136][440224][I]:ains extension not enable
+[05/10/23 12:01:02:136][440224][I]:ains factory is nullptr
+[05/10/23 12:01:02:136][440224][I]:NSNG: strategy 0, enhai 1.000000, enhsta 2.000000, stabound 0.050000, gainboost 2.000000, finalmask 0.030000
+[05/10/23 12:01:02:136][440224][I]:NSNG: strategy 0, enhai 1.000000, enhsta 2.000000, stabound 0.050000, gainboost 2.000000, finalmask 0.030000
+[05/10/23 12:01:02:136][440224][I]:audio_processing_impl.cc:342 - Capture post processor activated: 0
+Render pre processor activated: 0
+[05/10/23 12:01:02:136][440224][I]:ains extension not enable
+[05/10/23 12:01:02:136][440224][I]:ains factory is nullptr
+[05/10/23 12:01:02:136][440224][I]:NSNG: strategy 0, enhai 1.000000, enhsta 2.000000, stabound 0.050000, gainboost 2.000000, finalmask 0.030000
+[05/10/23 12:01:02:136][440224][I]:[APM] [ED CONFIG] howlingActivaty = 1
+[05/10/23 12:01:02:136][440224][I]:[APM] [AEC CONFIG] aec_config.routing = 0
+[05/10/23 12:01:02:136][440224][I]:[APM] [AEC CONFIG] aec_config.pure_aec_processing = 0
+[05/10/23 12:01:02:136][440224][I]:[APM] [AEC CONFIG] aec_config.ainlp_reset_period_in_ms = 6400
+[05/10/23 12:01:02:136][440224][I]:[APM] [AEC CONFIG] aec_config.ainlp_reset_ratio = 90
+[05/10/23 12:01:02:136][440224][I]:[APM] [AEC CONFIG] aec_config.ainlp_fallback_period_in_micro_second = 8000
+[05/10/23 12:01:02:136][440224][I]:audio_processing_impl.cc:316 - AudioProcessingImpl::ctor(0x1D063274020)
+[05/10/23 12:01:02:136][440224][I]:echo_cancellation_impl.cc:223 - EchoCancellationImpl::ctor(0x1D05E020E60)
+[05/10/23 12:01:02:136][440224][I]:ains extension not enable
+[05/10/23 12:01:02:136][440224][I]:ains factory is nullptr
+[05/10/23 12:01:02:137][440224][I]:ains extension not enable
+[05/10/23 12:01:02:137][440224][I]:ains factory is nullptr
+[05/10/23 12:01:02:137][440224][I]:NSNG: strategy 0, enhai 1.000000, enhsta 2.000000, stabound 0.050000, gainboost 2.000000, finalmask 0.030000
+[05/10/23 12:01:02:137][440224][I]:NSNG: strategy 0, enhai 1.000000, enhsta 2.000000, stabound 0.050000, gainboost 2.000000, finalmask 0.030000
+[05/10/23 12:01:02:137][440224][I]:audio_processing_impl.cc:342 - Capture post processor activated: 0
+Render pre processor activated: 0
+[05/10/23 12:01:02:137][440224][I]:ains extension not enable
+[05/10/23 12:01:02:137][440224][I]:ains factory is nullptr
+[05/10/23 12:01:02:137][440224][I]:NSNG: strategy 0, enhai 1.000000, enhsta 2.000000, stabound 0.050000, gainboost 2.000000, finalmask 0.030000
+[05/10/23 12:01:02:137][440224][I]:[APM] [ED CONFIG] howlingActivaty = 1
+[05/10/23 12:01:02:137][440224][I]:[APM] [ED CONFIG] howlingLife = -1
+[05/10/23 12:01:02:137][440224][I]:[APM] [ED CONFIG] howlingSuppression = 1
+[05/10/23 12:01:02:137][440224][I]:[APM] [ED CONFIG] howlingBound = 10
+[05/10/23 12:01:02:137][440224][I]:[APM] [ED CONFIG] howlingTrustfactor = 3
+[05/10/23 12:01:02:137][440224][I]:[APM] [AEC CONFIG] aec_config.routing = 0
+[05/10/23 12:01:02:137][440224][I]:[APM] [AEC CONFIG] aec_config.pure_aec_processing = 0
+[05/10/23 12:01:02:137][440224][I]:[APM] [AEC CONFIG] aec_config.ainlp_reset_period_in_ms = 6400
+[05/10/23 12:01:02:137][440224][I]:[APM] [AEC CONFIG] aec_config.ainlp_reset_ratio = 90
+[05/10/23 12:01:02:137][440224][I]:[APM] [AEC CONFIG] aec_config.ainlp_fallback_period_in_micro_second = 8000
+[05/10/23 12:01:02:138][440224][I]:(audio_device_buffer.cc:66): AudioDeviceBuffer::ctor
+[05/10/23 12:01:02:138][440224][I]:(audio_device_buffer.cc:212): SetRecordingSampleRate(48000)
+[05/10/23 12:01:02:138][440224][I]:(audio_device_buffer.cc:260): SetRecordingChannels(1)
+[05/10/23 12:01:02:139][440224][A]:(00005085):   IAudioFilterComposite::addAudioFilter(this:000001D0660767C0, filter: 000001D05F99FA10)
+[05/10/23 12:01:02:139][440224][I]:(audio_transport_impl.cc:163): SetPlaybackDataExtraProcessing processing = 000001D15487DDC8.
+[05/10/23 12:01:02:139][440224][I]:(audio_transport_impl.cc:155): SetRecordedDataExtraProcessing processing = 000001D15487F308.
+[05/10/23 12:01:02:139][440224][I]:(audio_transport_impl.cc:170): SetRecordedDataExtraProcessingEnable enable = 1.
+[05/10/23 12:01:02:139][440224][I]:(audio_device_impl.cc:1118): webrtc::AudioDeviceModuleImpl::RegisterAudioCallback
+[05/10/23 12:01:02:139][440224][I]:(audio_device_buffer.cc:92): webrtc::AudioDeviceBuffer::RegisterAudioCallback
+[05/10/23 12:01:02:139][440224][I]:(audio_transport_impl.cc:254): SetRecordingResampleRecorder recorder = 000001D0630445A0.
+[05/10/23 12:01:02:139][440224][I]:audio options factoryname ==default: vector===5
+[05/10/23 12:01:02:139][440224][W]:[AOF]: enable preferred aec delay: 1
+[05/10/23 12:01:02:139][440224][I]:[AOF]: enable_aec: 0, enable_agc: 1, enable_ns: 0, enable_md: 0
+[05/10/23 12:01:02:139][440224][I]:[APM] [AEC CONFIG] aec_config.routing = 5
+[05/10/23 12:01:02:139][440224][I]:[AOE]: update_apm_audio_routing, changed to route=5
+[05/10/23 12:01:02:139][440224][I]:[APM] [ANS CONFIG] ans_config.routing = 5
+[05/10/23 12:01:02:139][440224][I]:[APM] [ANS CONFIG] ans_config.mode = 0
+[05/10/23 12:01:02:139][440224][I]:NSNG: Route set to 0
+[05/10/23 12:01:02:139][440224][I]:[APM] [ANS CONFIG] ans_config.EnableNsFollowAgc = 1
+[05/10/23 12:01:02:139][440224][I]:[APM] [AGC CONFIG] agc_config.mode = 0
+[05/10/23 12:01:02:139][440224][I]:[APM] [AGC CONFIG] agc_config.target_level_dbfs = 0
+[05/10/23 12:01:02:139][440224][I]:[APM] [AGC CONFIG] agc_config.compression_gain_db = 0
+[05/10/23 12:01:02:139][440224][I]:[APM] [AGC CONFIG] agc_config.limiter_enabled = 0
+[05/10/23 12:01:02:139][440224][I]:[APM] [AGC CONFIG] agc_config.routing = 5
+[05/10/23 12:01:02:139][440224][I]:[APM] [AEC CONFIG] aec_config.pure_aec_processing = 1
+[05/10/23 12:01:02:139][440224][I]:[AOF]: mic selection: 0
+[05/10/23 12:01:02:139][440224][I]:(audio_transport_impl.cc:337): EnableMicSelection enable = 0.
+[05/10/23 12:01:02:139][440224][I]:[APM] [ANS CONFIG] ans_config.routing = 5
+[05/10/23 12:01:02:139][440224][I]:[APM] [ANS CONFIG] ans_config.mode = -1
+[05/10/23 12:01:02:139][440224][I]:[APM] [AGC CONFIG] agc_config.mode = 1
+[05/10/23 12:01:02:139][440224][I]:[APM] [AGC CONFIG] agc_config.routing = 5
+[05/10/23 12:01:02:139][440224][I]:[APM] [AGC CONFIG] agc_config.compression_gain_db = 10
+[05/10/23 12:01:02:139][440224][I]:[APM] [AGC CONFIG] agc_config.routing = 5
+[05/10/23 12:01:02:139][440224][I]:[APM] [AGC CONFIG] agc_config.target_level_dbfs = 6
+[05/10/23 12:01:02:139][440224][I]:[APM] [AGC CONFIG] agc_config.routing = 5
+[05/10/23 12:01:02:139][440224][I]:[APM] [AGC CONFIG] agc_config.enabled = 1
+[05/10/23 12:01:02:139][440224][I]:[APM] [AGC CONFIG] agc_config.limiter_enabled = 1
+[05/10/23 12:01:02:139][440224][I]:[APM] [AGC CONFIG] agc_config.routing = 5
+[05/10/23 12:01:02:139][440224][I]:[APM] [HPF CONFIG] high_pass_filter.enabled = 1
+[05/10/23 12:01:02:140][274828][I]:[BW]: BaseWorker (ExternalAudioDeviceWorker) started: 000001D1165EA290
+[05/10/23 12:01:02:142][440224][W]:[BW]: (long time task) [ExternalThread ==> AgMajor] agora_service_impl.cpp:450: pickup time 0, execute time 87, overall time 87
+[05/10/23 12:01:02:142][440224][A]:(00005086): <lambda_3e16b0c600911b599a5e207d9d7c7649>::operator ->CallbackOnRoutingChanged(this:000001D164376C50, route: 5)
+[05/10/23 12:01:02:142][440224][A]:(00005087): AgoraService::createAudioDeviceManager(this:000001D154433820, void)
+[05/10/23 12:01:02:142][509416][A]:(00005088):         AgoraService::setAudioSessionPreset(this:000001D154433820, scenario:0)
+[05/10/23 12:01:02:142][509416][A]:(00005089):         AgoraService::registerAgoraServiceObserver(this:000001D154433820, observer:000001D05C3FBAE0)
+[05/10/23 12:01:02:144][440224][I]:create dangling client connection 000001D0669AE180
+[05/10/23 12:01:02:144][440224][I]:[remote:138.******.131:8443] start 0th connect, send client hello 10441126|syn, early data: 0, tags: SNI :3133382d322d...(26), PDMD:, CPTO:4e4f4e432000...(129), CCRT:ed4ebf414f0f...(24), CID: 7386079226360717457
+[05/10/23 12:01:02:144][440224][I]:create dangling client connection 000001D0669A7480
+[05/10/23 12:01:02:144][440224][I]:[remote:164.******.244:8443] start 0th connect, send client hello 15460448|syn, early data: 0, tags: SNI :3136342d3532...(27), PDMD:, CPTO:4e4f4e432000...(129), CCRT:ed4ebf414f0f...(24), CID: 16055049612515851313
+[05/10/23 12:01:02:144][440224][I]:create dangling client connection 000001D0669B1800
+[05/10/23 12:01:02:145][440224][I]:[remote:129.******.85:8130] start 0th connect, send client hello 13335006|syn, early data: 0, tags: SNI :3132392d3232...(28), NELD:, PDMD:, CPTO:4e4f4e432000...(129), CCRT:ed4ebf414f0f...(24), CID: 15354090896588548098
+[05/10/23 12:01:02:145][440224][I]:create dangling client connection 000001D0669AEF20
+[05/10/23 12:01:02:145][440224][I]:[remote:103.******.16:8443] start 0th connect, send client hello 15167539|syn, early data: 0, tags: SNI :3130332d3135...(27), PDMD:, CPTO:4e4f4e432000...(129), CCRT:ed4ebf414f0f...(24), CID: 1934595802391367513
+[05/10/23 12:01:02:145][440224][I]:create dangling client connection 000001D0669B25A0
+[05/10/23 12:01:02:145][440224][I]:[remote:122.******.142:8443] start 0th connect, send client hello 6276105|syn, early data: 0, tags: SNI :3132322d3130...(28), PDMD:, CPTO:4e4f4e432000...(129), CCRT:ed4ebf414f0f...(24), CID: 15653118929675360994
+[05/10/23 12:01:02:145][440224][I]:[ap-base] OnParsedDns ap-tds-tls.agora.io with err 0, 129.******.189, 150.******.16, 164.******.59, 164.******.62, 164.******.57, 
+[05/10/23 12:01:02:145][440224][I]:[CM]: succeeded to flush to Cache File Manager in DnsCacheDocument::Pack(), elapsed 0
+[05/10/23 12:01:02:145][509416][I]:[RTC]: No TDS value found for video.set_remote_video_stream_type
+
+[05/10/23 12:01:02:145][509416][A]:(00005090):         AgoraService::createMediaNodeFactory(this:000001D154433820, void)
+[05/10/23 12:01:02:146][440224][I]:[ap-base] OnParsedDns ap3-tls.agora.io with err 0, 164.******.57, 129.******.189, 150.******.16, 164.******.59, 164.******.62, 
+[05/10/23 12:01:02:146][440224][I]:[ap-base] OnParsedDns ap5.agora.io with err 0, 155.******.172, 164.******.58, 144.******.30, 
+[05/10/23 12:01:02:146][440224][I]:[ap-5] client: OnSetDnsResult, will try to use DNS to connect
+[05/10/23 12:01:02:146][440224][I]:create session builder 000001D15FF3FDE0
+[05/10/23 12:01:02:146][440224][I]:[ap-5] send message to: 23.******.152:8443, with opid: 496818031, transport type = 5, send ts = 1683700262146
+[05/10/23 12:01:02:146][440224][I]:[ap-5] client: OnSetDnsResult, will try to use DNS to connect
+[05/10/23 12:01:02:146][440224][I]:[CM]: succeeded to flush to Cache File Manager in DnsCacheDocument::Pack(), elapsed 0
+[05/10/23 12:01:02:154][440224][I]:[MPI]: AgoraMediaPlayer SDK ver 4.1.0 build 248833
+[05/10/23 12:01:02:154][440224][A]:(00005091): MediaPlayerImpl::initialize(this:000001D05C101C50, agora_service: 000001D154433820)
+[05/10/23 12:01:02:154][440224][A]:(00005092):   AgoraService::createMediaNodeFactory(this:000001D154433820, void)
+[05/10/23 12:01:02:154][440224][A]:(00005093):   MediaNodeFactoryImpl::createMediaPlayerSource(this:000001D05C3FCD20, void)
+[05/10/23 12:01:02:154][257912][I]:media_player_impl.cpp:497@MediaPlayerImpl|000001D159B72880|mpk#0>> MediaPlayerImpl
+[05/10/23 12:01:02:154][257912][I]:media_reader_impl.cc:134@MediaReaderImpl|000001D13D7EC720|mpk#0>> MediaReaderImpl
+[05/10/23 12:01:02:154][257912][I]:media_player_source_ffmpeg.cc:110@MediaPlayerSourceFfmpeg|000001D1548651B0|mpk#0>> MediaPlayerSourceFfmpeg
+[05/10/23 12:01:02:154][257912][A]:(00005094): MediaPlayerImpl::registerPlayerSourceObserver(this:000001D159B72880, observer:000001D13D9076B0)
+[05/10/23 12:01:02:154][257912][A]:(00005095): MediaPlayerImpl::registerVideoFrameObserver(this:000001D159B72880, observer:000001D13D9076B8)
+[05/10/23 12:01:02:154][257912][A]:(00005096): MediaPlayerImpl::registerAudioFrameObserver(this:000001D159B72880, observer:000001D13D9076C0)
+[05/10/23 12:01:02:154][257912][A]:(00005097): MediaPlayerImpl::SetReportSender(this:000001D159B72880, sender:000001D05EDC1770)
+[05/10/23 12:01:02:154][257912][A]:(00005098): AgoraService::createMediaNodeFactory(this:000001D154433820, void)
+[05/10/23 12:01:02:154][257912][A]:(00005099): MediaNodeFactoryImpl::createAudioPcmDataSender(this:000001D05C3FCD20, void)
+[05/10/23 12:01:02:154][257912][A]:(00005100): MediaNodeFactoryImpl::createVideoFrameSender(this:000001D05C3FCD20, void)
+[05/10/23 12:01:02:155][440224][A]:(00005101):   MediaPlayerSourceFFMpeg::registerPlayerSourceObserver(this:000001D13D9076B0, observer: 000001D05C101C58)
+[05/10/23 12:01:02:155][440224][A]:(00005102):   AgoraService::createMediaPlayerVideoTrack(this:000001D154433820, playerVideoSource:000001D13D9076C8)
+[05/10/23 12:01:02:155][440224][A]:(00005103):     MediaPlayerSourceFFMpeg::getVideoFrameSender(this:000001D13D9076B0, void)
+[05/10/23 12:01:02:155][440224][I]:LocalVideoTrackYuvImpl: id 23 is created 
+[05/10/23 12:01:02:158][623728][I]:[BW]: BaseWorker (AgLocalVCtrl) started: 000001D1165E8920
+[05/10/23 12:01:02:158][440224][I]:[VW]: Construct watermark object, this: 000001D13DF06430.
+[05/10/23 12:01:02:158][440224][I]:[VW]: Construct watermark object, this: 000001D13DF05A70.
+[05/10/23 12:01:02:158][440224][I]:[LVT]: Load extension filters, size: 0
+[05/10/23 12:01:02:158][440224][I]:[LVT]: Set Default encoder configuration
+[05/10/23 12:01:02:158][440224][I]:[VNE]: low-end cpu, tune down the encoder parameters
+
+[05/10/23 12:01:02:158][440224][I]:[VNE]: no TDS value found for enable_hw_encoder
+[05/10/23 12:01:02:158][440224][I]:[VNE]: no TDS value found for che.hardware_encoding
+[05/10/23 12:01:02:158][440224][I]:[VNE]: no TDS value found for che.video.h264.hwenc
+[05/10/23 12:01:02:158][135932][I]:[BW]: BaseWorker (AgLocalDataYuv) started: 000001D1165EA040
+[05/10/23 12:01:02:158][440224][I]:[VNE]: no TDS value found for low_stream_enable_hw_encoder
+[05/10/23 12:01:02:158][440224][I]:[VNE]: no TDS value found for enable_minor_stream_intra_request
+[05/10/23 12:01:02:160][440224][I]:[VNE]: TDS value found for video_enc_min_scc_auto_framerate: 3
+[05/10/23 12:01:02:161][440224][I]:[VNE]: no TDS value found for video_skip_enable
+[05/10/23 12:01:02:161][440224][A]:(00005104):     VideoFrameAdapter::setOutputFormat(this:000001D15EB14D50, format:(width:640, height:360, fps:15))
+[05/10/23 12:01:02:161][440224][I]:update request format, [w:640, h:360, fps:15], reset format table
+[05/10/23 12:01:02:161][440224][A]:(00005105):   LocalVideoTrackImpl::addRenderer(this:000001D146F72190, videoRenderer:000001D063040460)
+[05/10/23 12:01:02:161][440224][A]:(00005106):     VideoFrameRotator::setOutputFormat(this:000001D154FB3C10, format:(width:640, height:360, fps:15, fixed:1))
+[05/10/23 12:01:02:161][440224][A]:(00005107):   AgoraService::createMediaPlayerAudioTrack(this:000001D154433820, playerSource:000001D13D9076C8)
+[05/10/23 12:01:02:161][440224][A]:(00005108):     MediaPlayerSourceFFMpeg::getAudioPcmDataSender(this:000001D13D9076B0, void)
+[05/10/23 12:01:02:161][440224][I]:[AFC]: AudioFilterCompositeWithExtension name:pcm_source_composites, extensionTypeSet size:1
+[05/10/23 12:01:02:161][440224][I]:[AFC]: create extension audio filters, extensionTypeSet size:1
+[05/10/23 12:01:02:161][440224][I]:[AFC]: create extension audio filter, extension type:10003 extension_list size:2
+[05/10/23 12:01:02:161][440224][I]:[AFC]: create extension audio filter, extension type:10003 internal_id:agora.builtin%%sound_position_io_agora_builtin_pcm_source filter:sound_position_io_agora_builtin_pcm_source auto_enable:0
+[05/10/23 12:01:02:161][440224][I]:[AFC]: add extension audio filter:sound_position_io_agora_builtin_pcm_source to filter composite:pcm_source_composites
+[05/10/23 12:01:02:161][440224][A]:(00005109):     IAudioFilterComposite::addAudioFilter(this:000001D05F99E990, filter: 000001D16437A990)
+[05/10/23 12:01:02:161][440224][I]:[AFC]: create extension audio filter, extension type:10003 internal_id:agora.builtin%%pitch_io_agora_builtin_pcm_source filter:pitch_io_agora_builtin_pcm_source auto_enable:0
+[05/10/23 12:01:02:161][440224][I]:[AFC]: add extension audio filter:pitch_io_agora_builtin_pcm_source to filter composite:pcm_source_composites
+[05/10/23 12:01:02:161][440224][A]:(00005110):     IAudioFilterComposite::addAudioFilter(this:000001D05F99E990, filter: 000001D16437BB60)
+[05/10/23 12:01:02:161][440224][I]:[AFC]: AudioFilterCompositeWithExtension name:pcm_source_sending_composites, extensionTypeSet size:1
+[05/10/23 12:01:02:161][440224][I]:[AFC]: create extension audio filters, extensionTypeSet size:1
+[05/10/23 12:01:02:161][440224][I]:[AFC]: create extension audio filter, extension type:10004 extension_list size:0
+[05/10/23 12:01:02:161][440224][I]:[AFC]: AudioFilterCompositeWithExtension name:pcm_source_local_playback_composites, extensionTypeSet size:1
+[05/10/23 12:01:02:161][440224][I]:[AFC]: create extension audio filters, extensionTypeSet size:1
+[05/10/23 12:01:02:161][440224][I]:[AFC]: create extension audio filter, extension type:10005 extension_list size:0
+[05/10/23 12:01:02:161][440224][A]:(00005111):   LocalAudioTrackImpl::addAudioFilter(this:000001D15A6E3DB0, filter: 000001D16437A940, name: audio_dual_mono, position: 3)
+[05/10/23 12:01:02:161][440224][A]:(00005112):     IAudioFilterComposite::addAudioFilter(this:000001D05F99E990, filter: 000001D16437A940)
+[05/10/23 12:01:02:161][440224][A]:(00005113):   LocalAudioTrackImpl::addAudioFilter(this:000001D15A6E3DB0, filter: 000001D066076BE0, name: media_player, position: 3)
+[05/10/23 12:01:02:161][440224][A]:(00005114):     IAudioFilterComposite::addAudioFilter(this:000001D05F99E990, filter: 000001D066076BE0)
+[05/10/23 12:01:02:161][440224][A]:(00005115): MediaPlayerImpl::getMediaPlayerId(this:000001D05C101C50, void)
+[05/10/23 12:01:02:161][440224][A]:(00005116):   MediaPlayerSourceFFMpeg::getSourceId(this:000001D13D9076B0, void)
+[05/10/23 12:01:02:161][509416][A]:(00005117):         MediaPlayerImpl::getMediaPlayerId(this:000001D05C101C50, void)
+[05/10/23 12:01:02:162][440224][I]:create dangling client connection 000001D09329F6B0
+[05/10/23 12:01:02:162][440224][I]:[remote:23.******.152:8443] start 0th connect, send client hello 9886583|syn, early data: 0, tags: SNI :32332d39382d...(26), PDMD:, CPTO:4e4f4e432000...(129), CCRT:ed4ebf414f0f...(24), CID: 8769001697961489518
+[05/10/23 12:01:02:162][440224][A]:(00005118): MediaPlayerSourceFFMpeg::getSourceId(this:000001D13D9076B0, void)
+[05/10/23 12:01:02:162][440224][I]:[ap-base] OnParsedDns ap1-ipv6.agora.io with err -1, 
+[05/10/23 12:01:02:162][509416][A]:(00005119):         MediaPlayerImpl::registerPlayerSourceObserver(this:000001D05C101C50, observer:000001D05EDD2600)
+[05/10/23 12:01:02:162][509416][A]:(00005120):         RhythmPlayerImpl::RhythmPlayerImpl(this:000001D1640F58F0, void)
+[05/10/23 12:01:02:162][509416][A]:(00005121):         RhythmPlayerImpl::initialize(this:000001D1640F58F0, void)
+[05/10/23 12:01:02:162][440224][A]:(00005122): RhythmSoundDecoder::RhythmSoundDecoder(this:000001D13DF05660, void)
+[05/10/23 12:01:02:162][440224][A]:(00005123):   RhythmSoundDecoder::initialize(this:000001D13DF05660, void)
+[05/10/23 12:01:02:162][440224][A]:(00005124):     AgoraService::createMediaNodeFactory(this:000001D154433820, void)
+[05/10/23 12:01:02:162][440224][A]:(00005125):     MediaNodeFactoryImpl::createMediaPlayerSource(this:000001D05C3FCD20, void)
+[05/10/23 12:01:02:162][257912][I]:media_player_impl.cpp:497@MediaPlayerImpl|000001D05C41A260|mpk#1>> MediaPlayerImpl
+[05/10/23 12:01:02:162][257912][I]:media_reader_impl.cc:134@MediaReaderImpl|000001D05CF9E860|mpk#1>> MediaReaderImpl
+[05/10/23 12:01:02:163][257912][I]:media_player_source_ffmpeg.cc:110@MediaPlayerSourceFfmpeg|000001D1548663D0|mpk#1>> MediaPlayerSourceFfmpeg
+[05/10/23 12:01:02:163][257912][A]:(00005126): MediaPlayerImpl::registerPlayerSourceObserver(this:000001D05C41A260, observer:000001D064B2B140)
+[05/10/23 12:01:02:163][257912][A]:(00005127): MediaPlayerImpl::registerVideoFrameObserver(this:000001D05C41A260, observer:000001D064B2B148)
+[05/10/23 12:01:02:163][257912][A]:(00005128): MediaPlayerImpl::registerAudioFrameObserver(this:000001D05C41A260, observer:000001D064B2B150)
+[05/10/23 12:01:02:163][257912][A]:(00005129): MediaPlayerImpl::SetReportSender(this:000001D05C41A260, sender:000001D05CB26F90)
+[05/10/23 12:01:02:163][257912][A]:(00005130): AgoraService::createMediaNodeFactory(this:000001D154433820, void)
+[05/10/23 12:01:02:163][257912][A]:(00005131): MediaNodeFactoryImpl::createAudioPcmDataSender(this:000001D05C3FCD20, void)
+[05/10/23 12:01:02:163][257912][A]:(00005132): MediaNodeFactoryImpl::createVideoFrameSender(this:000001D05C3FCD20, void)
+[05/10/23 12:01:02:163][440224][A]:(00005133):     MediaPlayerSourceFFMpeg::registerPlayerSourceObserver(this:000001D064B2B140, observer: 000001D154FB40B0)
+[05/10/23 12:01:02:163][440224][A]:(00005134):     MediaPlayerSourceFFMpeg::getAudioPcmDataSender(this:000001D064B2B140, void)
+[05/10/23 12:01:02:163][440224][A]:(00005135):     AgoraService::createCustomAudioTrack(this:000001D154433820, audioSource:000001D164CF8A00)
+[05/10/23 12:01:02:163][440224][I]:[AFC]: AudioFilterCompositeWithExtension name:pcm_source_composites, extensionTypeSet size:1
+[05/10/23 12:01:02:163][440224][I]:[AFC]: create extension audio filters, extensionTypeSet size:1
+[05/10/23 12:01:02:163][440224][I]:[AFC]: create extension audio filter, extension type:10003 extension_list size:2
+[05/10/23 12:01:02:163][440224][I]:[AFC]: create extension audio filter, extension type:10003 internal_id:agora.builtin%%sound_position_io_agora_builtin_pcm_source filter:sound_position_io_agora_builtin_pcm_source auto_enable:0
+[05/10/23 12:01:02:163][440224][I]:[AFC]: add extension audio filter:sound_position_io_agora_builtin_pcm_source to filter composite:pcm_source_composites
+[05/10/23 12:01:02:163][440224][A]:(00005136):       IAudioFilterComposite::addAudioFilter(this:000001D05F99EBD0, filter: 000001D164373EB0)
+[05/10/23 12:01:02:163][440224][I]:[AFC]: create extension audio filter, extension type:10003 internal_id:agora.builtin%%pitch_io_agora_builtin_pcm_source filter:pitch_io_agora_builtin_pcm_source auto_enable:0
+[05/10/23 12:01:02:163][440224][I]:[AFC]: add extension audio filter:pitch_io_agora_builtin_pcm_source to filter composite:pcm_source_composites
+[05/10/23 12:01:02:163][440224][A]:(00005137):       IAudioFilterComposite::addAudioFilter(this:000001D05F99EBD0, filter: 000001D164374680)
+[05/10/23 12:01:02:163][440224][I]:[AFC]: AudioFilterCompositeWithExtension name:pcm_source_sending_composites, extensionTypeSet size:1
+[05/10/23 12:01:02:163][440224][I]:[AFC]: create extension audio filters, extensionTypeSet size:1
+[05/10/23 12:01:02:163][440224][I]:[AFC]: create extension audio filter, extension type:10004 extension_list size:0
+[05/10/23 12:01:02:163][440224][I]:[AFC]: AudioFilterCompositeWithExtension name:pcm_source_local_playback_composites, extensionTypeSet size:1
+[05/10/23 12:01:02:163][440224][I]:[AFC]: create extension audio filters, extensionTypeSet size:1
+[05/10/23 12:01:02:163][440224][I]:[AFC]: create extension audio filter, extension type:10005 extension_list size:0
+[05/10/23 12:01:02:163][440224][A]:(00005138):     MediaNodeFactoryImpl::createMediaPlayerSource(this:000001D05C3FCD20, void)
+[05/10/23 12:01:02:163][257912][I]:media_player_impl.cpp:497@MediaPlayerImpl|000001D05C41A600|mpk#2>> MediaPlayerImpl
+[05/10/23 12:01:02:163][257912][I]:media_reader_impl.cc:134@MediaReaderImpl|000001D05CF9E090|mpk#2>> MediaReaderImpl
+[05/10/23 12:01:02:163][257912][I]:media_player_source_ffmpeg.cc:110@MediaPlayerSourceFfmpeg|000001D154866EB0|mpk#2>> MediaPlayerSourceFfmpeg
+[05/10/23 12:01:02:163][257912][A]:(00005139): MediaPlayerImpl::registerPlayerSourceObserver(this:000001D05C41A600, observer:000001D064B2AE80)
+[05/10/23 12:01:02:163][257912][A]:(00005140): MediaPlayerImpl::registerVideoFrameObserver(this:000001D05C41A600, observer:000001D064B2AE88)
+[05/10/23 12:01:02:163][257912][A]:(00005141): MediaPlayerImpl::registerAudioFrameObserver(this:000001D05C41A600, observer:000001D064B2AE90)
+[05/10/23 12:01:02:163][257912][A]:(00005142): MediaPlayerImpl::SetReportSender(this:000001D05C41A600, sender:000001D05CB25A90)
+[05/10/23 12:01:02:163][257912][A]:(00005143): AgoraService::createMediaNodeFactory(this:000001D154433820, void)
+[05/10/23 12:01:02:163][257912][A]:(00005144): MediaNodeFactoryImpl::createAudioPcmDataSender(this:000001D05C3FCD20, void)
+[05/10/23 12:01:02:163][257912][A]:(00005145): MediaNodeFactoryImpl::createVideoFrameSender(this:000001D05C3FCD20, void)
+[05/10/23 12:01:02:163][440224][A]:(00005146):     MediaPlayerSourceFFMpeg::registerPlayerSourceObserver(this:000001D064B2AE80, observer: 000001D154FB3AD0)
+[05/10/23 12:01:02:163][440224][A]:(00005147):     MediaPlayerSourceFFMpeg::getAudioPcmDataSender(this:000001D064B2AE80, void)
+[05/10/23 12:01:02:163][440224][A]:(00005148):     AgoraService::createCustomAudioTrack(this:000001D154433820, audioSource:000001D164CF8C40)
+[05/10/23 12:01:02:164][440224][I]:[AFC]: AudioFilterCompositeWithExtension name:pcm_source_composites, extensionTypeSet size:1
+[05/10/23 12:01:02:164][440224][I]:[AFC]: create extension audio filters, extensionTypeSet size:1
+[05/10/23 12:01:02:164][440224][I]:[AFC]: create extension audio filter, extension type:10003 extension_list size:2
+[05/10/23 12:01:02:164][440224][I]:[AFC]: create extension audio filter, extension type:10003 internal_id:agora.builtin%%sound_position_io_agora_builtin_pcm_source filter:sound_position_io_agora_builtin_pcm_source auto_enable:0
+[05/10/23 12:01:02:164][440224][I]:[AFC]: add extension audio filter:sound_position_io_agora_builtin_pcm_source to filter composite:pcm_source_composites
+[05/10/23 12:01:02:164][440224][A]:(00005149):       IAudioFilterComposite::addAudioFilter(this:000001D05F9A03D0, filter: 000001D063E14270)
+[05/10/23 12:01:02:164][440224][I]:[AFC]: create extension audio filter, extension type:10003 internal_id:agora.builtin%%pitch_io_agora_builtin_pcm_source filter:pitch_io_agora_builtin_pcm_source auto_enable:0
+[05/10/23 12:01:02:164][440224][I]:[AFC]: add extension audio filter:pitch_io_agora_builtin_pcm_source to filter composite:pcm_source_composites
+[05/10/23 12:01:02:164][440224][A]:(00005150):       IAudioFilterComposite::addAudioFilter(this:000001D05F9A03D0, filter: 000001D063E14180)
+[05/10/23 12:01:02:164][440224][I]:[AFC]: AudioFilterCompositeWithExtension name:pcm_source_sending_composites, extensionTypeSet size:1
+[05/10/23 12:01:02:164][440224][I]:[AFC]: create extension audio filters, extensionTypeSet size:1
+[05/10/23 12:01:02:164][440224][I]:[AFC]: create extension audio filter, extension type:10004 extension_list size:0
+[05/10/23 12:01:02:164][440224][I]:[AFC]: AudioFilterCompositeWithExtension name:pcm_source_local_playback_composites, extensionTypeSet size:1
+[05/10/23 12:01:02:164][440224][I]:[AFC]: create extension audio filters, extensionTypeSet size:1
+[05/10/23 12:01:02:164][440224][I]:[AFC]: create extension audio filter, extension type:10005 extension_list size:0
+[05/10/23 12:01:02:164][440224][A]:(00005151):     RhythmSoundDecoder::setState(this:000001D13DF05660, void)
+[05/10/23 12:01:02:164][440224][I]:[RPI]: setState()-index[1], state[0].
+[05/10/23 12:01:02:164][440224][A]:(00005152):     RhythmSoundDecoder::setState(this:000001D13DF05660, void)
+[05/10/23 12:01:02:164][440224][I]:[RPI]: setState()-index[2], state[0].
+[05/10/23 12:01:02:164][440224][A]:(00005153): RhythmSoundDecoder::registerObserver(this:000001D13DF05660, void)
+[05/10/23 12:01:02:164][440224][A]:(00005154): RhythmSoundMixer::RhythmSoundMixer(this:000001D14780A120, void)
+[05/10/23 12:01:02:164][440224][A]:(00005155):   RhythmSoundMixer::initialize(this:000001D14780A120, void)
+[05/10/23 12:01:02:164][440224][A]:(00005156):     AgoraService::createMediaNodeFactory(this:000001D154433820, void)
+[05/10/23 12:01:02:164][440224][A]:(00005157):     MediaNodeFactoryImpl::createAudioPcmDataSender(this:000001D05C3FCD20, void)
+[05/10/23 12:01:02:164][440224][A]:(00005158):     AgoraService::createCustomAudioTrack(this:000001D154433820, audioSource:000001D0630488A0)
+[05/10/23 12:01:02:164][440224][I]:[AFC]: AudioFilterCompositeWithExtension name:pcm_source_composites, extensionTypeSet size:1
+[05/10/23 12:01:02:164][440224][I]:[AFC]: create extension audio filters, extensionTypeSet size:1
+[05/10/23 12:01:02:164][440224][I]:[AFC]: create extension audio filter, extension type:10003 extension_list size:2
+[05/10/23 12:01:02:164][440224][I]:[AFC]: create extension audio filter, extension type:10003 internal_id:agora.builtin%%sound_position_io_agora_builtin_pcm_source filter:sound_position_io_agora_builtin_pcm_source auto_enable:0
+[05/10/23 12:01:02:164][440224][I]:[AFC]: add extension audio filter:sound_position_io_agora_builtin_pcm_source to filter composite:pcm_source_composites
+[05/10/23 12:01:02:164][440224][A]:(00005159):       IAudioFilterComposite::addAudioFilter(this:000001D05F9A0250, filter: 000001D146F4DD40)
+[05/10/23 12:01:02:164][440224][I]:[AFC]: create extension audio filter, extension type:10003 internal_id:agora.builtin%%pitch_io_agora_builtin_pcm_source filter:pitch_io_agora_builtin_pcm_source auto_enable:0
+[05/10/23 12:01:02:164][440224][I]:[AFC]: add extension audio filter:pitch_io_agora_builtin_pcm_source to filter composite:pcm_source_composites
+[05/10/23 12:01:02:164][440224][A]:(00005160):       IAudioFilterComposite::addAudioFilter(this:000001D05F9A0250, filter: 000001D146F4D390)
+[05/10/23 12:01:02:164][440224][I]:[AFC]: AudioFilterCompositeWithExtension name:pcm_source_sending_composites, extensionTypeSet size:1
+[05/10/23 12:01:02:164][440224][I]:[AFC]: create extension audio filters, extensionTypeSet size:1
+[05/10/23 12:01:02:164][440224][I]:[AFC]: create extension audio filter, extension type:10004 extension_list size:0
+[05/10/23 12:01:02:164][440224][I]:[AFC]: AudioFilterCompositeWithExtension name:pcm_source_local_playback_composites, extensionTypeSet size:1
+[05/10/23 12:01:02:164][440224][I]:[AFC]: create extension audio filters, extensionTypeSet size:1
+[05/10/23 12:01:02:164][440224][I]:[AFC]: create extension audio filter, extension type:10005 extension_list size:0
+[05/10/23 12:01:02:164][440224][A]:(00005161): AgoraService::createRtcConnectionEx(this:000001D154433820, cfg:(autoSubscribeAudio:1, autoSubscribeVideo:1, enableAudioRecordingOrPlayout:1maxSendBitrate:-1, minPort:0, maxPort:0,  clientRoleType:2, clientType:0, vosList.size:0), connId:0)
+[05/10/23 12:01:02:164][440224][A]:(00005162):   RtcConnectionImpl::initializeEx(this:000001D15328FD30, serviceCfg:(enableAudioProcessor:1, enableAudioDevice:1, enableVideo:1, context:0000000000000000), cfg:(autoSubscribeAudio:1, autoSubscribeVideo:1, enableAudioRecordingOrPlayout:1, maxSendBitrate:-1, minPort:0, maxPort:0, clientRoleType:2, clientType:0, channelProfile:1, vosList.size:0, recvType:(audio: 0, video: 0)))
+[05/10/23 12:01:02:164][440224][I]:[afm] type: 1, patient time: 2000, never backwards: false
+[05/10/23 12:01:02:164][440224][I]:[ap-5] client: StopRequest
+[05/10/23 12:01:02:164][440224][I]:destroy session builder 000001D1470C0750
+[05/10/23 12:01:02:164][440224][I]:destroy dangling client connection 000001D0669B25A0
+[05/10/23 12:01:02:164][440224][I]:destroy session builder 000001D15FF3FDE0
+[05/10/23 12:01:02:164][440224][I]:destroy dangling client connection 000001D09329F6B0
+[05/10/23 12:01:02:164][440224][I]:[ap-5] client: SendRequest
+[05/10/23 12:01:02:164][440224][I]:[ap-5] client: DoProcess, now: 1683700262164, retry times: 0
+[05/10/23 12:01:02:164][440224][I]:create session builder 000001D15FF3F1B0
+[05/10/23 12:01:02:164][440224][I]:[ap-5] send message to: 155.******.172:8443, with opid: 496818032, transport type = 5, send ts = 1683700262164
+[05/10/23 12:01:02:165][440224][I]:connecting to 164.******.62:8443 handle 000001D16441C370, 21000
+[05/10/23 12:01:02:165][440224][I]:[ap-5] connect to: 164.******.62:8443, with opid: 496818033, transport type = 1, send ts = 1683700262164
+[05/10/23 12:01:02:165][440224][I]:[rlbs] Send AP Request, service_id = 5
+[05/10/23 12:01:02:165][440224][I]:destroy session builder 000001D16B41AEC0
+[05/10/23 12:01:02:165][440224][I]:destroy dangling client connection 000001D0669B1800
+[05/10/23 12:01:02:165][440224][I]:create session builder 000001D15FF3B0B0
+[05/10/23 12:01:02:165][440224][I]:this: 000001D15328FD30, [CON]: initialize cc type 3
+[05/10/23 12:01:02:169][440224][I]:on set parameters doc='{"che.audio.enabled":true}', ret=-11
+[05/10/23 12:01:02:173][440224][I]:[CONN-0][CALLCTX]: API call to enable video
+[05/10/23 12:01:02:173][440224][I]:on set parameters doc='{"rtc.video.enabled":true}', ret=0
+[05/10/23 12:01:02:179][440224][I]:on set parameters doc='{"rtc.channel_profile":1}', ret=0
+[05/10/23 12:01:02:183][440224][I]:on set parameters doc='{"rtc.client_role":2}', ret=0
+[05/10/23 12:01:02:184][440224][I]:this: 000001D15328FD30, [CON]: adjust remote ssrc : true
+[05/10/23 12:01:02:184][440224][I]:this: 000001D15328FD30, [CON]: No TDS value found for rtc audio.rsfec
+[05/10/23 12:01:02:188][440224][I]:on set parameters doc='{"che.audio.mute_peers":false}', ret=0
+[05/10/23 12:01:02:192][440224][I]:on set parameters doc='{"che.audio.paused":false}', ret=-11
+[05/10/23 12:01:02:196][440224][I]:on set parameters doc='{"rtc.video.mute_peers":false}', ret=0
+[05/10/23 12:01:02:196][440224][I]:this: 000001D15328FD30, [CON]: No TDS value found for rtc iptos
+[05/10/23 12:01:02:196][440224][A]:(00005163):     RtcConnectionImpl::getUserRole(this:000001D15328FD30, void)
+[05/10/23 12:01:02:196][440224][I]:this: 000001D15328FD30, [CON]: no TDS value found for enable_webrtc_pacer. set pacer to true
+[05/10/23 12:01:02:196][440224][I]:[CON]: delta frame scalable set to true
+[05/10/23 12:01:02:196][440224][I]:[VSM]: user parameter enable_hw_decoder : 
+[05/10/23 12:01:02:197][440224][I]:[VSM]: user parameter hardware_decoding : -1
+[05/10/23 12:01:02:197][440224][I]:[VSM]: user parameter value found for enable_video_freeze_diagnose : true
+[05/10/23 12:01:02:197][440224][I]:[VSM]: user parameter value found for retrans_detect_enable : false
+[05/10/23 12:01:02:197][440224][I]:[VSM]: user parameter value found for use_sent_ts_enable : true
+[05/10/23 12:01:02:197][440224][I]:[VSM]: user parameter enable_minor_stream_intra_request : 0
+[05/10/23 12:01:02:197][440224][I]:[VSM]: no TDS value found for switch_soft_decoder_threshold
+[05/10/23 12:01:02:197][440224][I]:[VSM]: no TDS value found for enable_parser_reject
+[05/10/23 12:01:02:197][440224][I]:[VSM]: no TDS value found for enable_hw_decoder
+[05/10/23 12:01:02:197][440224][I]:[VSM]: no TDS value found for dec_mosreport
+[05/10/23 12:01:02:197][440224][I]:[VSM]: no TDS value found for che.hardware_decoding
+[05/10/23 12:01:02:197][440224][I]:[VSM]: no TDS value found for tds_retrans_detect_enable
+[05/10/23 12:01:02:197][440224][I]:[VSM]: no TDS value found for tds_use_sent_ts_enable
+[05/10/23 12:01:02:197][440224][I]:[VSM]: user parameter value found for packet_buffer_size : 2048
+[05/10/23 12:01:02:197][440224][I]:[VSM]: no TDS value found for packet_buffer_size
+[05/10/23 12:01:02:197][440224][I]:[VSM]: user parameter value found for enable_vpr : true
+[05/10/23 12:01:02:197][440224][I]:[VSM]: user parameter value found for che.video.vpr.init_size : 1
+[05/10/23 12:01:02:197][440224][I]:[VSM]: user parameter value found for che.video.vpr.max_size : 3
+[05/10/23 12:01:02:197][440224][I]:[VSM]: user parameter value found for che.video.vpr.frozen_ms_thres : 200
+[05/10/23 12:01:02:198][440224][I]:[VSM]: user parameter value found for che.video.vpr.frozen_rate_thres : 5
+[05/10/23 12:01:02:198][440224][I]:[VSM]: user parameter value found for che.video.vpr.method : 0
+[05/10/23 12:01:02:198][440224][I]:[VSM]: user parameter value found for che.video.vpr.vpr_adaptive_thres : 50
+[05/10/23 12:01:02:198][440224][W]:[ASM]: AudioStreamManager::ctor(000001D0937C53A0)
+[05/10/23 12:01:02:198][440224][I]:[APT]: name:observer_playout_source AudioNodeMixerSource::ctor(000001D15A3F0070)
+[05/10/23 12:01:02:198][440224][I]:[APT]: name:observer_recording_source AudioNodeMixerSource::ctor(000001D15A3EFA70)
+[05/10/23 12:01:02:198][5948][I]:[ANMSS]: Add audio source 000001D15A3F0078, number of sources 1
+[05/10/23 12:01:02:198][5948][I]:[ANMSS]: Add audio source 000001D15A3EFA78, number of sources 2
+[05/10/23 12:01:02:199][440224][A]:(00005164):     RtcConnectionImpl::subscribeReceivePacketHandler(this:000001D15328FD30, void)
+[05/10/23 12:01:02:200][521520][I]:[BW]: BaseWorker (AgPredump) started: 000001D1165E94B0
+[05/10/23 12:01:02:200][238780][I]:[BW]: BaseWorker (AgDebugThread) started: 000001D1165E9260
+[05/10/23 12:01:02:201][440224][I]:[CONN-0][CALLCTX]: vocs audio scenatio type is same
+[05/10/23 12:01:02:201][440224][I]:this: 000001D15328FD30, [CON]: uid:4294967295 set channel profile 1
+[05/10/23 12:01:02:201][440224][A]:(00005165): RtcConnectionImpl::registerObserver(this:000001D15328FD30, observer:000001D15FF4E500)
+[05/10/23 12:01:02:201][440224][A]:(00005166): RtcConnectionImpl::registerNetworkObserver(this:000001D15328FD30, observer:000001D15FF4E508)
+[05/10/23 12:01:02:201][440224][A]:(00005167): LocalUserImpl::registerLocalUserObserver(this:000001D1180F0880, observer:000001D15FF4E510)
+[05/10/23 12:01:02:201][440224][I]:[CHM] create rtc is pass thru mode 0 is main channel 1
+[05/10/23 12:01:02:201][440224][I]:[CHM]: set default rtc connection :  channelId: uid:0 userId:
+[05/10/23 12:01:02:201][509416][A]:(00005168):         AgoraService::createAudioDeviceManager(this:000001D154433820, void)
+[05/10/23 12:01:02:201][509416][A]:(00005169):         AudioDeviceManagerImpl::registerObserver(this:000001D164379360, observer:000001D05C3FBAD8)
+[05/10/23 12:01:02:201][509416][I]:[AGS]: Agora SDK ver 4.1.0 build 248833
+[05/10/23 12:01:02:201][509416][I]:[AGS]: Agora SDK git ver: and branch:
+[05/10/23 12:01:02:201][509416][A]:(00005170):       RtcEngine::setParametersInternal(this:000001D146E258E0, parameters:[{"rtc.channel_profile":1}])
+[05/10/23 12:01:02:201][440224][I]:create dangling client connection 000001D09329F6B0
+[05/10/23 12:01:02:202][440224][I]:[remote:155.******.172:8443] start 0th connect, send client hello 13593745|syn, early data: 0, tags: SNI :3135352d3234...(29), PDMD:, CPTO:4e4f4e432000...(129), CCRT:ed4ebf414f0f...(24), CID: 12179757067079190003
+[05/10/23 12:01:02:202][440224][I]:create dangling client connection 000001D09329C030
+[05/10/23 12:01:02:202][440224][I]:[remote:129.******.85:8130] start 0th connect, send client hello 3097764|syn, early data: 0, tags: SNI :3132392d3232...(28), NELD:, PDMD:, CPTO:4e4f4e432000...(129), CCRT:ed4ebf414f0f...(24), CID: 6336803151927297298
+[05/10/23 12:01:02:202][440224][I]:[ap-base] OnParsedDns ap3-tds.agora.io with err 0, 103.******.16, 138.******.131, 164.******.244, 
+[05/10/23 12:01:02:202][440224][I]:[ap-6] client: OnSetDnsResult, will try to use DNS to connect
+[05/10/23 12:01:02:202][440224][I]:create session builder 000001D15FF42270
+[05/10/23 12:01:02:202][440224][I]:[ap-6] send message to: 103.******.16:8443, with opid: 361848310, transport type = 5, send ts = 1683700262202
+[05/10/23 12:01:02:202][440224][I]:[ap-6] client: OnSetDnsResult, will try to use DNS to connect
+[05/10/23 12:01:02:202][440224][I]:[CM]: succeeded to flush to Cache File Manager in DnsCacheDocument::Pack(), elapsed 0
+[05/10/23 12:01:02:203][440224][I]:[rp] {"rtc.channel_profile":1}
+[05/10/23 12:01:02:203][440224][I]:on set parameters doc='{"rtc.channel_profile":1}', ret=0
+[05/10/23 12:01:02:203][440224][I]:[CONN-0][CALLCTX]: vocs audio scenatio type is same
+[05/10/23 12:01:02:203][440224][A]:(00005171): LocalUserImpl::setAudioScenario(this:000001D1180F0880, config:(scenario:0))
+[05/10/23 12:01:02:203][440224][I]:audio options factoryname ==default: vector===5
+[05/10/23 12:01:02:203][440224][W]:[AOF]: enable preferred aec delay: 1
+[05/10/23 12:01:02:203][440224][I]:[AOF]: enable_aec: 0, enable_agc: 1, enable_ns: 0, enable_md: 0
+[05/10/23 12:01:02:203][440224][I]:[AOF]: mic selection: 0
+[05/10/23 12:01:02:203][440224][I]:(audio_transport_impl.cc:337): EnableMicSelection enable = 0.
+[05/10/23 12:01:02:203][509416][I]:set dll directory: D:\Workplace\VirtualConnectWebmobril\Assets\Agora-RTC-Plugin\Agora-Unity-RTC-SDK\Plugins\x86_64\, res: 1, error: 0.
+[05/10/23 12:01:02:203][509416][A]:(00005172):     RtcEngine::loadExtensionProvider(this:000001D146E258E0, loadExtensionProvider:libagora_clear_vision_extension.dll)
+[05/10/23 12:01:02:203][509416][I]:[EPR] load libagora_clear_vision_extension.dll success.
+[05/10/23 12:01:02:204][440224][I]:create dangling client connection 000001D0932AAEA0
+[05/10/23 12:01:02:204][440224][I]:[remote:103.******.16:8443] start 0th connect, send client hello 7558348|syn, early data: 0, tags: SNI :3130332d3135...(27), PDMD:, CPTO:4e4f4e432000...(129), CCRT:ed4ebf414f0f...(24), CID: 6029076829377935784
+[05/10/23 12:01:02:205][509416][A]:(00005173):     RtcEngine::loadExtensionProvider(this:000001D146E258E0, loadExtensionProvider:libagora_segmentation_extension.dll)
+[05/10/23 12:01:02:205][509416][I]:[EPR] load libagora_segmentation_extension.dll success.
+[05/10/23 12:01:02:205][509416][A]:(00005174):     RtcEngine::loadExtensionProvider(this:000001D146E258E0, loadExtensionProvider:libagora_screen_capture_extension.dll)
+[05/10/23 12:01:02:205][509416][I]:[EPR] load libagora_screen_capture_extension.dll success.
+[05/10/23 12:01:02:205][509416][A]:(00005175):     RtcEngine::loadExtensionProvider(this:000001D146E258E0, loadExtensionProvider:libagora_audio_beauty_extension.dll)
+[05/10/23 12:01:02:205][509416][I]:[EPR] load libagora_audio_beauty_extension.dll success.
+[05/10/23 12:01:02:205][509416][A]:(00005176):     RtcEngine::loadExtensionProvider(this:000001D146E258E0, loadExtensionProvider:libagora_spatial_audio_extension.dll)
+[05/10/23 12:01:02:205][509416][I]:[EPR] load libagora_spatial_audio_extension.dll success.
+[05/10/23 12:01:02:205][509416][A]:(00005177):     RtcEngine::loadExtensionProvider(this:000001D146E258E0, loadExtensionProvider:libagora_video_quality_analyzer_extension.dll)
+[05/10/23 12:01:02:205][509416][I]:[EPR] load libagora_video_quality_analyzer_extension.dll success.
+[05/10/23 12:01:02:205][509416][A]:(00005178):     RtcEngine::registerExtension(this:000001D146E258E0, provider:agora_video_filters_clear_vision, extension:clear_vision, type:100)
+[05/10/23 12:01:02:205][509416][I]:ExtensionControlImpl::Get Extension Control 000001D13DF03D30
+[05/10/23 12:01:02:205][509416][I]:ExtensionControlImpl::registerProvider agora_video_filters_clear_vision, 000001D069B14660
+[05/10/23 12:01:02:205][509416][I]:ExtensionControlImpl::Get Extension Control 000001D13DF03D30
+[05/10/23 12:01:02:205][440224][I]:ExtensionProviderRegistry::extension:agora_video_filters_clear_vision%%clear_vision exist
+[05/10/23 12:01:02:205][509416][A]:(00005179):     RtcEngine::registerExtension(this:000001D146E258E0, provider:agora_video_filters_segmentation, extension:portrait_segmentation, type:100)
+[05/10/23 12:01:02:205][509416][I]:ExtensionControlImpl::Get Extension Control 000001D13DF03D30
+[05/10/23 12:01:02:205][509416][I]:ExtensionControlImpl::registerProvider agora_video_filters_segmentation, 000001D069B14BE0
+[05/10/23 12:01:02:205][509416][I]:ExtensionControlImpl::Get Extension Control 000001D13DF03D30
+[05/10/23 12:01:02:205][509416][I]:[Extension]: segmentation: sdk setExtensionControl for provider
+[05/10/23 12:01:02:205][440224][I]:ExtensionProviderRegistry::extension:agora_video_filters_segmentation%%portrait_segmentation exist
+[05/10/23 12:01:02:205][509416][A]:(00005180):     RtcEngine::registerExtension(this:000001D146E258E0, provider:agora_custom_video_quality_analyzer, extension:video_quality_analyzer, type:100)
+[05/10/23 12:01:02:205][509416][I]:ExtensionControlImpl::Get Extension Control 000001D13DF03D30
+[05/10/23 12:01:02:205][509416][I]:ExtensionControlImpl::registerProvider agora_custom_video_quality_analyzer, 000001D069B14DA0
+[05/10/23 12:01:02:205][509416][I]:ExtensionControlImpl::Get Extension Control 000001D13DF03D30
+[05/10/23 12:01:02:205][509416][I]:[Extension]: Valid Extension Control Received by AgoraVideoQualityAnalyzerProvider
+[05/10/23 12:01:02:205][440224][W]:ExtensionProviderRegistry::extension:agora_custom_video_quality_analyzer%%video_quality_analyzer not exist
+[05/10/23 12:01:02:205][509416][A]:(00005181):     RtcEngine::registerExtension(this:000001D146E258E0, provider:agora_audio_filters_audio_beauty, extension:beauty_voice_io_agora_post_processing_filter, type:100)
+[05/10/23 12:01:02:205][509416][I]:ExtensionControlImpl::Get Extension Control 000001D13DF03D30
+[05/10/23 12:01:02:205][509416][I]:ExtensionControlImpl::registerProvider agora_audio_filters_audio_beauty, 000001D069B14D20
+[05/10/23 12:01:02:205][509416][I]:ExtensionControlImpl::Get Extension Control 000001D13DF03D30
+[05/10/23 12:01:02:205][440224][I]:ExtensionProviderRegistry::extension:agora_audio_filters_audio_beauty%%beauty_voice_io_agora_post_processing_filter exist
+[05/10/23 12:01:02:205][509416][A]:(00005182):     RtcEngine::registerExtension(this:000001D146E258E0, provider:agora_audio_filters_audio_beauty, extension:beauty_sing_io_agora_post_processing_filter, type:100)
+[05/10/23 12:01:02:205][509416][I]:ExtensionControlImpl::Get Extension Control 000001D13DF03D30
+[05/10/23 12:01:02:205][440224][I]:ExtensionProviderRegistry::extension:agora_audio_filters_audio_beauty%%beauty_sing_io_agora_post_processing_filter exist
+[05/10/23 12:01:02:206][509416][A]:(00005183):     RtcEngine::registerExtension(this:000001D146E258E0, provider:agora_audio_filters_audio_beauty, extension:three_dim_voice_io_agora_post_processing_filter, type:100)
+[05/10/23 12:01:02:206][509416][I]:ExtensionControlImpl::Get Extension Control 000001D13DF03D30
+[05/10/23 12:01:02:206][440224][I]:ExtensionProviderRegistry::extension:agora_audio_filters_audio_beauty%%three_dim_voice_io_agora_post_processing_filter exist
+[05/10/23 12:01:02:206][509416][A]:(00005184):     RtcEngine::registerExtension(this:000001D146E258E0, provider:agora_audio_filters_audio_beauty, extension:virtual_stereo_io_agora_post_processing_filter, type:100)
+[05/10/23 12:01:02:206][509416][I]:ExtensionControlImpl::Get Extension Control 000001D13DF03D30
+[05/10/23 12:01:02:206][440224][I]:ExtensionProviderRegistry::extension:agora_audio_filters_audio_beauty%%virtual_stereo_io_agora_post_processing_filter exist
+[05/10/23 12:01:02:206][509416][A]:(00005185):     RtcEngine::registerExtension(this:000001D146E258E0, provider:agora_audio_filters_audio_beauty, extension:conv_reverb_io_agora_post_processing_filter, type:100)
+[05/10/23 12:01:02:206][509416][I]:ExtensionControlImpl::Get Extension Control 000001D13DF03D30
+[05/10/23 12:01:02:206][440224][I]:ExtensionProviderRegistry::extension:agora_audio_filters_audio_beauty%%conv_reverb_io_agora_post_processing_filter exist
+[05/10/23 12:01:02:206][509416][A]:(00005186):     RtcEngine::registerExtension(this:000001D146E258E0, provider:agora_audio_filters_audio_beauty, extension:electronic_voice_io_agora_post_processing_filter, type:100)
+[05/10/23 12:01:02:206][509416][I]:ExtensionControlImpl::Get Extension Control 000001D13DF03D30
+[05/10/23 12:01:02:206][440224][I]:ExtensionProviderRegistry::extension:agora_audio_filters_audio_beauty%%electronic_voice_io_agora_post_processing_filter exist
+[05/10/23 12:01:02:206][509416][A]:(00005187):     RtcEngine::registerExtension(this:000001D146E258E0, provider:agora_audio_filters_audio_beauty, extension:voice_changer_io_agora_post_processing_filter, type:100)
+[05/10/23 12:01:02:206][509416][I]:ExtensionControlImpl::Get Extension Control 000001D13DF03D30
+[05/10/23 12:01:02:206][440224][I]:ExtensionProviderRegistry::extension:agora_audio_filters_audio_beauty%%voice_changer_io_agora_post_processing_filter exist
+[05/10/23 12:01:02:206][509416][A]:(00005188):     RtcEngine::registerExtension(this:000001D146E258E0, provider:agora_audio_filters_audio_beauty, extension:vocal_changer_io_agora_post_processing_filter, type:100)
+[05/10/23 12:01:02:206][509416][I]:ExtensionControlImpl::Get Extension Control 000001D13DF03D30
+[05/10/23 12:01:02:206][440224][I]:ExtensionProviderRegistry::extension:agora_audio_filters_audio_beauty%%vocal_changer_io_agora_post_processing_filter exist
+[05/10/23 12:01:02:206][509416][A]:(00005189):     RtcEngine::registerExtension(this:000001D146E258E0, provider:agora_audio_filters_audio_beauty, extension:ultra_high_quality_voice_io_agora_post_processing_filter, type:100)
+[05/10/23 12:01:02:206][509416][I]:ExtensionControlImpl::Get Extension Control 000001D13DF03D30
+[05/10/23 12:01:02:206][440224][I]:ExtensionProviderRegistry::extension:agora_audio_filters_audio_beauty%%ultra_high_quality_voice_io_agora_post_processing_filter exist
+[05/10/23 12:01:02:206][509416][A]:(00005190):     RtcEngine::registerExtension(this:000001D146E258E0, provider:agora_audio_filters_audio_beauty, extension:voibeauty_io_agora_post_processing_filter, type:100)
+[05/10/23 12:01:02:206][509416][I]:ExtensionControlImpl::Get Extension Control 000001D13DF03D30
+[05/10/23 12:01:02:206][440224][I]:ExtensionProviderRegistry::extension:agora_audio_filters_audio_beauty%%voibeauty_io_agora_post_processing_filter exist
+[05/10/23 12:01:02:206][509416][A]:(00005191):     RtcEngine::registerExtension(this:000001D146E258E0, provider:agora_audio_filters_audio_beauty, extension:virtual_suround_sound_io_agora_post_processing_filter, type:100)
+[05/10/23 12:01:02:206][509416][I]:ExtensionControlImpl::Get Extension Control 000001D13DF03D30
+[05/10/23 12:01:02:206][440224][I]:ExtensionProviderRegistry::extension:agora_audio_filters_audio_beauty%%virtual_suround_sound_io_agora_post_processing_filter exist
+[05/10/23 12:01:02:206][509416][A]:(00005192):     RtcEngine::registerExtension(this:000001D146E258E0, provider:agora_audio_filters_audio_beauty, extension:beauty_voice_io_agora_recording_local_playback, type:100)
+[05/10/23 12:01:02:206][509416][I]:ExtensionControlImpl::Get Extension Control 000001D13DF03D30
+[05/10/23 12:01:02:206][440224][I]:ExtensionProviderRegistry::extension:agora_audio_filters_audio_beauty%%beauty_voice_io_agora_recording_local_playback exist
+[05/10/23 12:01:02:206][509416][A]:(00005193):     RtcEngine::registerExtension(this:000001D146E258E0, provider:agora_audio_filters_audio_beauty, extension:beauty_sing_io_agora_recording_local_playback, type:100)
+[05/10/23 12:01:02:206][509416][I]:ExtensionControlImpl::Get Extension Control 000001D13DF03D30
+[05/10/23 12:01:02:206][440224][I]:ExtensionProviderRegistry::extension:agora_audio_filters_audio_beauty%%beauty_sing_io_agora_recording_local_playback exist
+[05/10/23 12:01:02:206][509416][A]:(00005194):     RtcEngine::registerExtension(this:000001D146E258E0, provider:agora_audio_filters_audio_beauty, extension:three_dim_voice_io_agora_recording_local_playback, type:100)
+[05/10/23 12:01:02:206][509416][I]:ExtensionControlImpl::Get Extension Control 000001D13DF03D30
+[05/10/23 12:01:02:206][440224][I]:ExtensionProviderRegistry::extension:agora_audio_filters_audio_beauty%%three_dim_voice_io_agora_recording_local_playback exist
+[05/10/23 12:01:02:206][509416][A]:(00005195):     RtcEngine::registerExtension(this:000001D146E258E0, provider:agora_audio_filters_audio_beauty, extension:virtual_stereo_io_agora_recording_local_playback, type:100)
+[05/10/23 12:01:02:207][509416][I]:ExtensionControlImpl::Get Extension Control 000001D13DF03D30
+[05/10/23 12:01:02:207][440224][I]:ExtensionProviderRegistry::extension:agora_audio_filters_audio_beauty%%virtual_stereo_io_agora_recording_local_playback exist
+[05/10/23 12:01:02:207][509416][A]:(00005196):     RtcEngine::registerExtension(this:000001D146E258E0, provider:agora_audio_filters_audio_beauty, extension:conv_reverb_io_agora_recording_local_playback, type:100)
+[05/10/23 12:01:02:207][509416][I]:ExtensionControlImpl::Get Extension Control 000001D13DF03D30
+[05/10/23 12:01:02:207][440224][I]:ExtensionProviderRegistry::extension:agora_audio_filters_audio_beauty%%conv_reverb_io_agora_recording_local_playback exist
+[05/10/23 12:01:02:207][509416][A]:(00005197):     RtcEngine::registerExtension(this:000001D146E258E0, provider:agora_audio_filters_audio_beauty, extension:electronic_voice_io_agora_recording_local_playback, type:100)
+[05/10/23 12:01:02:207][509416][I]:ExtensionControlImpl::Get Extension Control 000001D13DF03D30
+[05/10/23 12:01:02:207][440224][I]:ExtensionProviderRegistry::extension:agora_audio_filters_audio_beauty%%electronic_voice_io_agora_recording_local_playback exist
+[05/10/23 12:01:02:207][509416][A]:(00005198):     RtcEngine::registerExtension(this:000001D146E258E0, provider:agora_audio_filters_audio_beauty, extension:voice_changer_io_agora_recording_local_playback, type:100)
+[05/10/23 12:01:02:207][509416][I]:ExtensionControlImpl::Get Extension Control 000001D13DF03D30
+[05/10/23 12:01:02:207][440224][I]:ExtensionProviderRegistry::extension:agora_audio_filters_audio_beauty%%voice_changer_io_agora_recording_local_playback exist
+[05/10/23 12:01:02:207][509416][A]:(00005199):     RtcEngine::registerExtension(this:000001D146E258E0, provider:agora_audio_filters_audio_beauty, extension:vocal_changer_io_agora_recording_local_playback, type:100)
+[05/10/23 12:01:02:207][509416][I]:ExtensionControlImpl::Get Extension Control 000001D13DF03D30
+[05/10/23 12:01:02:207][440224][I]:ExtensionProviderRegistry::extension:agora_audio_filters_audio_beauty%%vocal_changer_io_agora_recording_local_playback exist
+[05/10/23 12:01:02:207][509416][A]:(00005200):     RtcEngine::registerExtension(this:000001D146E258E0, provider:agora_audio_filters_audio_beauty, extension:ultra_high_quality_voice_io_agora_recording_local_playback, type:100)
+[05/10/23 12:01:02:207][509416][I]:ExtensionControlImpl::Get Extension Control 000001D13DF03D30
+[05/10/23 12:01:02:207][440224][I]:ExtensionProviderRegistry::extension:agora_audio_filters_audio_beauty%%ultra_high_quality_voice_io_agora_recording_local_playback exist
+[05/10/23 12:01:02:207][509416][A]:(00005201):     RtcEngine::registerExtension(this:000001D146E258E0, provider:agora_audio_filters_audio_beauty, extension:voibeauty_io_agora_recording_local_playback, type:100)
+[05/10/23 12:01:02:207][509416][I]:ExtensionControlImpl::Get Extension Control 000001D13DF03D30
+[05/10/23 12:01:02:207][440224][I]:ExtensionProviderRegistry::extension:agora_audio_filters_audio_beauty%%voibeauty_io_agora_recording_local_playback exist
+[05/10/23 12:01:02:207][509416][A]:(00005202):     RtcEngine::registerExtension(this:000001D146E258E0, provider:agora_audio_filters_audio_beauty, extension:virtual_suround_sound_io_agora_recording_local_playback, type:100)
+[05/10/23 12:01:02:207][509416][I]:ExtensionControlImpl::Get Extension Control 000001D13DF03D30
+[05/10/23 12:01:02:207][440224][I]:ExtensionProviderRegistry::extension:agora_audio_filters_audio_beauty%%virtual_suround_sound_io_agora_recording_local_playback exist
+[05/10/23 12:01:02:207][509416][A]:(00005203):     RtcEngine::registerExtension(this:000001D146E258E0, provider:agora_audio_filters_spatial_audio, extension:spatial_audio_io_agora_remote_user_playback, type:100)
+[05/10/23 12:01:02:207][509416][I]:ExtensionControlImpl::Get Extension Control 000001D13DF03D30
+[05/10/23 12:01:02:207][509416][I]:ExtensionControlImpl::registerProvider agora_audio_filters_spatial_audio, 000001D069B14DC0
+[05/10/23 12:01:02:207][509416][I]:ExtensionControlImpl::Get Extension Control 000001D13DF03D30
+[05/10/23 12:01:02:207][440224][I]:ExtensionProviderRegistry::extension:agora_audio_filters_spatial_audio%%spatial_audio_io_agora_remote_user_playback exist
+[05/10/23 12:01:02:207][509416][A]:(00005204):     RtcEngine::registerExtension(this:000001D146E258E0, provider:agora_audio_filters_spatial_audio, extension:spatial_audio_io_agora_pcm_source, type:100)
+[05/10/23 12:01:02:207][509416][I]:ExtensionControlImpl::Get Extension Control 000001D13DF03D30
+[05/10/23 12:01:02:207][440224][I]:ExtensionProviderRegistry::extension:agora_audio_filters_spatial_audio%%spatial_audio_io_agora_pcm_source exist
+[05/10/23 12:01:02:207][509416][A]:(00005205):     RtcEngine::enableLocalAudio(this:000001D146E258E0, enabled:1)
+[05/10/23 12:01:02:207][509416][A]:(00005206):       RtcEngine::enableLocalAudioInternal(this:000001D146E258E0, enabled:1)
+[05/10/23 12:01:02:207][440224][W]:[CHP] updateMediaOptions in wrong state 1, conn id 0
+[05/10/23 12:01:02:207][440224][I]:[CHM] updateMediaOptions fail. connection:  channelId: uid:0 userId:
+[05/10/23 12:01:02:207][509416][A]:(00005207):         RtcEngine::setParametersInternal(this:000001D146E258E0, parameters:[{"che.audio.record":true}])
+[05/10/23 12:01:02:207][509416][A]:(00005208):     RtcEngine::enableLocalVideo(this:000001D146E258E0, enabled:0)
+[05/10/23 12:01:02:207][440224][I]:[rp] {"che.audio.record":true}
+[05/10/23 12:01:02:207][440224][W]:[diag] Receive debug enabled 1 from config service
+[05/10/23 12:01:02:207][440224][I]:[VSM]: user parameter enable_hw_decoder : 
+[05/10/23 12:01:02:207][440224][I]:[VSM]: user parameter hardware_decoding : -1
+[05/10/23 12:01:02:207][440224][I]:[VSM]: user parameter value found for enable_video_freeze_diagnose : true
+[05/10/23 12:01:02:207][440224][I]:[VSM]: user parameter value found for retrans_detect_enable : false
+[05/10/23 12:01:02:207][440224][I]:[VSM]: user parameter value found for use_sent_ts_enable : true
+[05/10/23 12:01:02:207][440224][I]:[VSM]: user parameter enable_minor_stream_intra_request : 0
+[05/10/23 12:01:02:207][440224][I]:[VSM]: no TDS value found for switch_soft_decoder_threshold
+[05/10/23 12:01:02:207][440224][I]:[VSM]: no TDS value found for enable_parser_reject
+[05/10/23 12:01:02:208][440224][I]:[VSM]: no TDS value found for enable_hw_decoder
+[05/10/23 12:01:02:208][440224][I]:[VSM]: no TDS value found for dec_mosreport
+[05/10/23 12:01:02:208][440224][I]:[VSM]: no TDS value found for che.hardware_decoding
+[05/10/23 12:01:02:208][440224][I]:[VSM]: no TDS value found for tds_retrans_detect_enable
+[05/10/23 12:01:02:208][440224][I]:[VSM]: no TDS value found for tds_use_sent_ts_enable
+[05/10/23 12:01:02:208][440224][I]:[VSM]: user parameter value found for packet_buffer_size : 2048
+[05/10/23 12:01:02:208][440224][I]:[VSM]: no TDS value found for packet_buffer_size
+[05/10/23 12:01:02:208][440224][I]:[VSM]: user parameter value found for enable_vpr : true
+[05/10/23 12:01:02:208][440224][I]:[VSM]: user parameter value found for che.video.vpr.init_size : 1
+[05/10/23 12:01:02:208][440224][I]:[VSM]: user parameter value found for che.video.vpr.max_size : 3
+[05/10/23 12:01:02:208][440224][I]:[VSM]: user parameter value found for che.video.vpr.frozen_ms_thres : 200
+[05/10/23 12:01:02:208][440224][I]:[VSM]: user parameter value found for che.video.vpr.frozen_rate_thres : 5
+[05/10/23 12:01:02:208][440224][I]:[VSM]: user parameter value found for che.video.vpr.method : 0
+[05/10/23 12:01:02:208][440224][I]:[VSM]: user parameter value found for che.video.vpr.vpr_adaptive_thres : 50
+[05/10/23 12:01:02:211][440224][I]:on set parameters doc='{"che.audio.record":true}', ret=0
+[05/10/23 12:01:02:211][509416][A]:(00005209):       RtcEngine::enableLocalVideoInternal(this:000001D146E258E0, enabled:0)
+[05/10/23 12:01:02:211][440224][W]:[CHP] updateMediaOptions in wrong state 1, conn id 0
+[05/10/23 12:01:02:211][440224][I]:[CHM] updateMediaOptions fail. connection:  channelId: uid:0 userId:
+[05/10/23 12:01:02:211][509416][A]:(00005210): AudioDeviceManagerComponentImpl::AudioDeviceManagerComponentImpl(this:000001D1162EB400, void)
+[05/10/23 12:01:02:212][440224][A]:(00005211): AgoraService::createAudioDeviceManager(this:000001D154433820, void)
+[05/10/23 12:01:02:212][440224][A]:(00005212): AgoraService::createMediaNodeFactory(this:000001D154433820, void)
+[05/10/23 12:01:02:212][440224][A]:(00005213): AgoraService::createMediaNodeFactory(this:000001D154433820, void)
+[05/10/23 12:01:02:212][440224][A]:(00005214): MediaNodeFactoryImpl::createCameraCapturer(this:000001D05C3FCD20, void)
+[05/10/23 12:01:02:214][440224][W]:(device_info_ds.cc:229): webrtc::videocapturemodule::DeviceInfoDS::GetDeviceInfo Lenovo FHD Webcam
+[05/10/23 12:01:02:214][509416][W]:create MediaPlayerCacheManager successfully
+[05/10/23 12:01:02:214][509416][U]:(00005215): RtcEngine::registerMediaMetadataObserver(this:000001D146E258E0, observer:000001D065C0CE90, type:0)
+[05/10/23 12:01:02:214][509416][U]:(00005216): RtcEngine::registerAudioSpectrumObserver(this:000001D146E258E0, observer:000001D065C0CA70)
+[05/10/23 12:01:02:215][509416][A]:(00005217):   LocalUserImpl::registerAudioSpectrumObserver(this:000001D1180F0880, observer:000001D065C0CA70)
+[05/10/23 12:01:02:215][509416][U]:(00005218): MediaEngine::registerAudioFrameObserver(this:000001D063A6ABA0, observer: 000001D065C0CFF0)
+[05/10/23 12:01:02:215][440224][A]:(00005219): RtcEngine::registerAudioFrameObserver(this:000001D146E258E0, observer:000001D065C0CFF0)
+[05/10/23 12:01:02:215][440224][A]:(00005220):   LocalUserImpl::setPlaybackAudioFrameParameters(this:000001D1180F0880, numberOfChannels:2, sampleRateHz:4800, samplesPerCall:960)
+[05/10/23 12:01:02:215][440224][A]:(00005221):   LocalUserImpl::setRecordingAudioFrameParameters(this:000001D1180F0880, numberOfChannels:2, sampleRateHz:4800, mode:0, samplesPerCall 960)
+[05/10/23 12:01:02:215][440224][A]:(00005222):   LocalUserImpl::setMixedAudioFrameParameters(this:000001D1180F0880, numberOfChannels:2, sampleRateHz:4800, samplesPerCall:960)
+[05/10/23 12:01:02:215][440224][A]:(00005223):   LocalUserImpl::setPlaybackAudioFrameBeforeMixingParameters(this:000001D1180F0880, numberOfChannels:2, sampleRateHz:4800)
+[05/10/23 12:01:02:215][440224][A]:(00005224):   LocalUserImpl::registerAudioFrameObserver(this:000001D1180F0880, observer:000001D156C97FE0)
+[05/10/23 12:01:02:215][440224][I]:[ASM]: Register audio frame observer completed.
+[05/10/23 12:01:02:215][509416][U]:(00005225): MediaEngine::registerVideoFrameObserver(this:000001D063A6ABA0, observer: 000001D16C07A4A0)
+[05/10/23 12:01:02:215][440224][I]:[LVTM]: register video frame observer: 000001D16C07A4A0
+[05/10/23 12:01:02:215][440224][A]:(00005226): LocalUserImpl::setVideoFrameObserver(this:000001D1180F0880, observer:000001D16C07A4A0)
+[05/10/23 12:01:02:215][440224][I]:[VSM]: set video frame observer: 000001D16C07A4A0
+[05/10/23 12:01:02:215][509416][U]:(00005227): MediaEngine::registerVideoEncodedFrameObserver(this:000001D063A6ABA0, observer: 000001D05C3FBD60)
+[05/10/23 12:01:02:224][440224][I]:[remote:138.******.131:8443] receive server hello piece id: 0, 1/1, complete
+[05/10/23 12:01:02:225][440224][I]:[TM]: Evaluate cert chain size 3
+[05/10/23 12:01:02:225][440224][I]:[TM]: Add cert to cert store
+[05/10/23 12:01:02:225][440224][I]:[TM]: Add root certs to cert store
+[05/10/23 12:01:02:225][440224][I]:[TM]: Begin verify leaf cert
+[05/10/23 12:01:02:225][440224][I]:[TM]: End verify leaf cert, ret succ
+[05/10/23 12:01:02:226][440224][I]:[remote:138.******.131:8443] current in 0th connect, send client response 10441126|ack:12013874, early data: 461, tags: , CID: 7386079226360717457
+[05/10/23 12:01:02:226][440224][I]:[7386079226360717457|remote:138.******.131:8443] set congestion control type: BBRv1 pacing: true, initial cwin in pkts: 20
+[05/10/23 12:01:02:226][440224][I]:[7386079226360717457|remote:138.******.131:8443] set loss detection type: AdaptiveSequence
+[05/10/23 12:01:02:226][440224][I]:[7386079226360717457|remote:138.******.131:8443] create path 000001D16BBCDED0, self initial seq: 10441127, peer initial seq: 12013875, local public address: 0, initial rtt: 82ms, version: Unknown, forged protocol: 0, connection_id: 7386079226360717457, path_id: null, cc: BBRv1, pacing: true
+[05/10/23 12:01:02:226][440224][I]:[7386079226360717457|remote:138.******.131:8443] SetFromConfig max_packet_size:1280, mtu_discover_target:1450, initial_bandwidth_estimation:0 kbps, enable_connection_migration:true, 
+[05/10/23 12:01:02:226][440224][I]:[7386079226360717457|remote:138.******.131:8443] [7386079226360717457|remote:138.******.131:8443] 1298445113 switch best path to [7386079226360717457|remote:138.******.131:8443] , predict transfer time: 82ms, rtt : 82ms, loss 0
+[05/10/23 12:01:02:226][440224][I]:[7386079226360717457|remote:138.******.131:8443] create connection 000001D1600BBA60, self initial seq: 10441127, peer initial seq: 12013875, initial rtt: 82ms, version: Unknown, connection_id: 7386079226360717457, perspective: Perspective::kClient, multipath: false, reinjection strategy: kReinjectIfPossible, path scheduling: kDynamic
+[05/10/23 12:01:02:226][440224][I]:[7386079226360717457|remote:138.******.131:8443] SetFromConfig max_packet_size:1280, mtu_discover_target:1450, initial_bandwidth_estimation:0 kbps, enable_connection_migration:true, 
+[05/10/23 12:01:02:226][440224][I]:[7386079226360717457|remote:138.******.131:8443] create session 000001D1600BCCA0
+[05/10/23 12:01:02:226][440224][I]:[ap-6] connected to 138.******.131:8443, transport type = 5
+[05/10/23 12:01:02:226][440224][I]:[ap-6] send message to: 138.******.131:8443 with opid: 361848311, transport type = 5, send ts = 1683700262226
+[05/10/23 12:01:02:226][440224][I]:destroy dangling client connection 000001D0669AE180
+[05/10/23 12:01:02:229][509416][U]:(00005228): RtcEngine::setParametersInternal(this:000001D146E258E0, parameters:[{"rtc.set_app_type": 2}])
+[05/10/23 12:01:02:229][509416][A]:(00005229):   RtcEngine::setAppType(this:000001D146E258E0, appType 2)
+[05/10/23 12:01:02:229][440224][I]:[rp] {"rtc.set_app_type":2}
+[05/10/23 12:01:02:229][440224][W]:[diag] Receive debug enabled 1 from config service
+[05/10/23 12:01:02:229][440224][I]:[VSM]: user parameter enable_hw_decoder : 
+[05/10/23 12:01:02:229][440224][I]:[VSM]: user parameter hardware_decoding : -1
+[05/10/23 12:01:02:229][440224][I]:[VSM]: user parameter value found for enable_video_freeze_diagnose : true
+[05/10/23 12:01:02:229][440224][I]:[VSM]: user parameter value found for retrans_detect_enable : false
+[05/10/23 12:01:02:229][440224][I]:[VSM]: user parameter value found for use_sent_ts_enable : true
+[05/10/23 12:01:02:229][440224][I]:[VSM]: user parameter enable_minor_stream_intra_request : 0
+[05/10/23 12:01:02:229][440224][I]:[VSM]: no TDS value found for switch_soft_decoder_threshold
+[05/10/23 12:01:02:229][440224][I]:[VSM]: no TDS value found for enable_parser_reject
+[05/10/23 12:01:02:229][440224][I]:[VSM]: no TDS value found for enable_hw_decoder
+[05/10/23 12:01:02:229][440224][I]:[VSM]: no TDS value found for dec_mosreport
+[05/10/23 12:01:02:229][440224][I]:[VSM]: no TDS value found for che.hardware_decoding
+[05/10/23 12:01:02:229][440224][I]:[VSM]: no TDS value found for tds_retrans_detect_enable
+[05/10/23 12:01:02:229][440224][I]:[VSM]: no TDS value found for tds_use_sent_ts_enable
+[05/10/23 12:01:02:229][440224][I]:[VSM]: user parameter value found for packet_buffer_size : 2048
+[05/10/23 12:01:02:229][440224][I]:[VSM]: no TDS value found for packet_buffer_size
+[05/10/23 12:01:02:229][440224][I]:[VSM]: user parameter value found for enable_vpr : true
+[05/10/23 12:01:02:229][440224][I]:[VSM]: user parameter value found for che.video.vpr.init_size : 1
+[05/10/23 12:01:02:229][440224][I]:[VSM]: user parameter value found for che.video.vpr.max_size : 3
+[05/10/23 12:01:02:229][440224][I]:[VSM]: user parameter value found for che.video.vpr.frozen_ms_thres : 200
+[05/10/23 12:01:02:229][440224][I]:[VSM]: user parameter value found for che.video.vpr.frozen_rate_thres : 5
+[05/10/23 12:01:02:229][440224][I]:[VSM]: user parameter value found for che.video.vpr.method : 0
+[05/10/23 12:01:02:229][440224][I]:[VSM]: user parameter value found for che.video.vpr.vpr_adaptive_thres : 50
+[05/10/23 12:01:02:233][440224][I]:on set parameters doc='{"rtc.set_app_type":2}', ret=-4
+[05/10/23 12:01:02:233][440224][I]:[remote:103.******.16:8443] receive server hello piece id: 0, 1/1, complete
+[05/10/23 12:01:02:234][440224][I]:[TM]: Evaluate cert chain size 3
+[05/10/23 12:01:02:234][440224][I]:[TM]: Add cert to cert store
+[05/10/23 12:01:02:234][509416][U]:(00005230): RtcEngine::enableAudio(this:000001D146E258E0, void)
+[05/10/23 12:01:02:234][509416][A]:(00005231):   RtcEngine::enableAudioPlayoutInternal(this:000001D146E258E0, enabled:1)
+[05/10/23 12:01:02:234][440224][I]:[TM]: Add root certs to cert store
+[05/10/23 12:01:02:234][440224][I]:[TM]: Begin verify leaf cert
+[05/10/23 12:01:02:234][440224][I]:[TM]: End verify leaf cert, ret succ
+[05/10/23 12:01:02:235][440224][I]:[remote:103.******.16:8443] current in 0th connect, send client response 15167539|ack:8442415, early data: 461, tags: , CID: 1934595802391367513
+[05/10/23 12:01:02:235][440224][I]:[1934595802391367513|remote:103.******.16:8443] set congestion control type: BBRv1 pacing: true, initial cwin in pkts: 20
+[05/10/23 12:01:02:235][440224][I]:[1934595802391367513|remote:103.******.16:8443] set loss detection type: AdaptiveSequence
+[05/10/23 12:01:02:235][440224][I]:[1934595802391367513|remote:103.******.16:8443] create path 000001D16BBD6120, self initial seq: 15167540, peer initial seq: 8442416, local public address: 0, initial rtt: 90ms, version: Unknown, forged protocol: 0, connection_id: 1934595802391367513, path_id: null, cc: BBRv1, pacing: true
+[05/10/23 12:01:02:235][440224][I]:[1934595802391367513|remote:103.******.16:8443] SetFromConfig max_packet_size:1280, mtu_discover_target:1450, initial_bandwidth_estimation:0 kbps, enable_connection_migration:true, 
+[05/10/23 12:01:02:235][440224][I]:[1934595802391367513|remote:103.******.16:8443] [1934595802391367513|remote:103.******.16:8443] 1298445122 switch best path to [1934595802391367513|remote:103.******.16:8443] , predict transfer time: 90ms, rtt : 90ms, loss 0
+[05/10/23 12:01:02:235][440224][I]:[1934595802391367513|remote:103.******.16:8443] create connection 000001D1600BBEF0, self initial seq: 15167540, peer initial seq: 8442416, initial rtt: 90ms, version: Unknown, connection_id: 1934595802391367513, perspective: Perspective::kClient, multipath: false, reinjection strategy: kReinjectIfPossible, path scheduling: kDynamic
+[05/10/23 12:01:02:235][440224][I]:[1934595802391367513|remote:103.******.16:8443] SetFromConfig max_packet_size:1280, mtu_discover_target:1450, initial_bandwidth_estimation:0 kbps, enable_connection_migration:true, 
+[05/10/23 12:01:02:235][440224][I]:[1934595802391367513|remote:103.******.16:8443] create session 000001D1600BC380
+[05/10/23 12:01:02:235][440224][I]:[ap-6] connected to 103.******.16:8443, transport type = 5
+[05/10/23 12:01:02:235][440224][I]:[ap-6] send message to: 103.******.16:8443 with opid: 361848312, transport type = 5, send ts = 1683700262235
+[05/10/23 12:01:02:235][440224][I]:destroy dangling client connection 000001D0669AEF20
+[05/10/23 12:01:02:235][440224][I]:[ap-6] connected to 164.******.59:8443, transport type = 1
+[05/10/23 12:01:02:235][440224][I]:[ap-6] send message to: 164.******.59:8443 with opid: 361848313, transport type = 1, send ts = 1683700262235
+[05/10/23 12:01:02:235][509416][A]:(00005232):   RtcEngine::enableLocalAudio(this:000001D146E258E0, enabled:1)
+[05/10/23 12:01:02:236][509416][A]:(00005233):     RtcEngine::enableLocalAudioInternal(this:000001D146E258E0, enabled:1)
+[05/10/23 12:01:02:236][440224][W]:[CHP] updateMediaOptions in wrong state 1, conn id 0
+[05/10/23 12:01:02:236][440224][I]:[CHM] updateMediaOptions fail. connection:  channelId: uid:0 userId:
+[05/10/23 12:01:02:236][509416][A]:(00005234):       RtcEngine::setParametersInternal(this:000001D146E258E0, parameters:[{"che.audio.record":true}])
+[05/10/23 12:01:02:236][440224][I]:[rp] {"che.audio.record":true}
+[05/10/23 12:01:02:236][440224][I]:on set parameters doc='{"che.audio.record":true}', ret=0
+[05/10/23 12:01:02:236][509416][A]:(00005235):   LocalAudioTrackMediaPlayerImpl::setEnabled(this:000001D15A6E3DB0, enable:1)
+[05/10/23 12:01:02:237][440224][I]:[remote:155.******.172:8443] receive server hello piece id: 0, 1/1, complete
+[05/10/23 12:01:02:237][440224][I]:[TM]: Evaluate cert chain size 3
+[05/10/23 12:01:02:237][440224][I]:[TM]: Add cert to cert store
+[05/10/23 12:01:02:237][440224][I]:[TM]: Add root certs to cert store
+[05/10/23 12:01:02:237][440224][I]:[TM]: Begin verify leaf cert
+[05/10/23 12:01:02:237][440224][I]:[TM]: End verify leaf cert, ret succ
+[05/10/23 12:01:02:238][440224][I]:[remote:155.******.172:8443] current in 0th connect, send client response 13593745|ack:13331664, early data: 177, tags: , CID: 12179757067079190003
+[05/10/23 12:01:02:238][440224][I]:[12179757067079190003|remote:155.******.172:8443] set congestion control type: BBRv1 pacing: true, initial cwin in pkts: 20
+[05/10/23 12:01:02:238][440224][I]:[12179757067079190003|remote:155.******.172:8443] set loss detection type: AdaptiveSequence
+[05/10/23 12:01:02:238][440224][I]:[12179757067079190003|remote:155.******.172:8443] create path 000001D16BBCF8E0, self initial seq: 13593746, peer initial seq: 13331665, local public address: 0, initial rtt: 36ms, version: Unknown, forged protocol: 0, connection_id: 12179757067079190003, path_id: null, cc: BBRv1, pacing: true
+[05/10/23 12:01:02:238][440224][I]:[12179757067079190003|remote:155.******.172:8443] SetFromConfig max_packet_size:1280, mtu_discover_target:1450, initial_bandwidth_estimation:0 kbps, enable_connection_migration:true, 
+[05/10/23 12:01:02:238][440224][I]:[12179757067079190003|remote:155.******.172:8443] [12179757067079190003|remote:155.******.172:8443] 1298445125 switch best path to [12179757067079190003|remote:155.******.172:8443] , predict transfer time: 36ms, rtt : 36ms, loss 0
+[05/10/23 12:01:02:238][440224][I]:[12179757067079190003|remote:155.******.172:8443] create connection 000001D1176709C0, self initial seq: 13593746, peer initial seq: 13331665, initial rtt: 36ms, version: Unknown, connection_id: 12179757067079190003, perspective: Perspective::kClient, multipath: false, reinjection strategy: kReinjectIfPossible, path scheduling: kDynamic
+[05/10/23 12:01:02:238][440224][I]:[12179757067079190003|remote:155.******.172:8443] SetFromConfig max_packet_size:1280, mtu_discover_target:1450, initial_bandwidth_estimation:0 kbps, enable_connection_migration:true, 
+[05/10/23 12:01:02:238][440224][I]:[12179757067079190003|remote:155.******.172:8443] create session 000001D117670E50
+[05/10/23 12:01:02:238][440224][I]:[ap-5] connected to 155.******.172:8443, transport type = 5
+[05/10/23 12:01:02:238][440224][I]:[ap-5] send message to: 155.******.172:8443 with opid: 496818034, transport type = 5, send ts = 1683700262238
+[05/10/23 12:01:02:238][440224][I]:destroy dangling client connection 000001D09329F6B0
+[05/10/23 12:01:02:238][440224][A]:(00005236): LocalAudioTrackImpl::setEnabled(this:000001D15A6E3DB0, enable: 1)
+[05/10/23 12:01:02:238][440224][W]:[CHP] updateMediaOptions in wrong state 1, conn id 0
+[05/10/23 12:01:02:238][509416][A]:(00005237):   RtcEngine::setParametersInternal(this:000001D146E258E0, parameters:[{"che.audio.enabled":true}])
+[05/10/23 12:01:02:238][440224][I]:[rp] {"che.audio.enabled":true}
+[05/10/23 12:01:02:238][440224][I]:on set parameters doc='{"che.audio.enabled":true}', ret=-11
+[05/10/23 12:01:02:239][509416][U]:(00005238): RtcEngine::enableVideo(this:000001D146E258E0, void)
+[05/10/23 12:01:02:239][509416][I]:API call to enable video
+[05/10/23 12:01:02:239][509416][A]:(00005239):   RtcEngine::setParametersInternal(this:000001D146E258E0, parameters:[{"rtc.video.enabled":true}])
+[05/10/23 12:01:02:239][509416][A]:(00005240):   RtcEngine::enableLocalVideo(this:000001D146E258E0, enabled:1)
+[05/10/23 12:01:02:239][440224][I]:[rp] {"rtc.video.enabled":true}
+[05/10/23 12:01:02:239][440224][I]:[CONN-0][CALLCTX]: API call to enable video
+[05/10/23 12:01:02:239][440224][I]:on set parameters doc='{"rtc.video.enabled":true}', ret=0
+[05/10/23 12:01:02:239][509416][A]:(00005241):     RtcEngine::enableLocalVideoInternal(this:000001D146E258E0, enabled:1)
+[05/10/23 12:01:02:240][440224][W]:[CHP] updateMediaOptions in wrong state 1, conn id 0
+[05/10/23 12:01:02:242][509416][U]:(00005242): RtcEngine::setVideoEncoderConfiguration(this:000001D146E258E0, config:(codecType:2, dimensions:(width:640, height:360), frameRate:15, bitrate:0, minBitrate:-1, orientationMode:0, degradationPreference:0))
+[05/10/23 12:01:02:242][509416][A]:(00005243):   RtcEngine::setVideoEncoderConfigurationEx(this:000001D146E258E0, config:(codecType:2, dimensions:(width:640, height:360), frameRate:15, bitrate:0, minBitrate:-1, orientationMode:0, degradationPreference:0), connection:[ channelId: localUid:0])
+[05/10/23 12:01:02:242][509416][A]:(00005244):     RtcEngine::getParameters(this:000001D146E258E0, key:"["engine.video.enable_hw_encoder"]")
+[05/10/23 12:01:02:242][440224][I]:[rp] ["engine.video.enable_hw_encoder"]
+[05/10/23 12:01:02:242][440224][I]:[rp] res: {"engine.video.enable_hw_encoder":""} 
+[05/10/23 12:01:02:242][509416][I]:user parameter value found for enable hw encoder : 
+[05/10/23 12:01:02:242][509416][A]:(00005245):     RtcEngine::getParameters(this:000001D146E258E0, key:"["che.hardware_encoding"]")
+[05/10/23 12:01:02:242][440224][I]:[rp] ["che.hardware_encoding"]
+[05/10/23 12:01:02:242][440224][I]:[rp] res: {} 
+[05/10/23 12:01:02:242][509416][A]:(00005246):     RtcEngine::getParameters(this:000001D146E258E0, key:"["che.video.h264.hwenc"]")
+[05/10/23 12:01:02:242][440224][I]:[rp] ["che.video.h264.hwenc"]
+[05/10/23 12:01:02:242][440224][I]:[rp] res: {"che.video.h264.hwenc":-1} 
+[05/10/23 12:01:02:242][509416][A]:(00005247):     RtcEngine::getParameters(this:000001D146E258E0, key:"["rtc.video.minscore_for_swh265enc"]")
+[05/10/23 12:01:02:242][440224][I]:[rp] ["rtc.video.minscore_for_swh265enc"]
+[05/10/23 12:01:02:242][440224][I]:[rp] res: {"rtc.video.minscore_for_swh265enc":80} 
+[05/10/23 12:01:02:242][509416][I]:user parameter value found for minscore_for_swh265enc : 80
+[05/10/23 12:01:02:243][509416][A]:(00005248):     RtcEngine::getParameters(this:000001D146E258E0, key:"["engine.video.quality_scale_only_on_average_qp"]")
+[05/10/23 12:01:02:243][440224][I]:[rp] ["engine.video.quality_scale_only_on_average_qp"]
+[05/10/23 12:01:02:243][440224][I]:[rp] res: {"engine.video.quality_scale_only_on_average_qp":""} 
+[05/10/23 12:01:02:243][509416][I]:user parameter value found for quality_scale_only_on_average_qp : 
+[05/10/23 12:01:02:243][509416][A]:(00005249):     RtcEngine::getParameters(this:000001D146E258E0, key:"["engine.video.h264_qp_thresholds_low"]")
+[05/10/23 12:01:02:243][440224][I]:[rp] ["engine.video.h264_qp_thresholds_low"]
+[05/10/23 12:01:02:243][440224][I]:[rp] res: {"engine.video.h264_qp_thresholds_low":""} 
+[05/10/23 12:01:02:243][509416][I]:user parameter value found for h264_qp_thresholds_low : 
+[05/10/23 12:01:02:243][509416][A]:(00005250):     RtcEngine::getParameters(this:000001D146E258E0, key:"["engine.video.h264_qp_thresholds_high"]")
+[05/10/23 12:01:02:243][440224][I]:[rp] ["engine.video.h264_qp_thresholds_high"]
+[05/10/23 12:01:02:243][440224][I]:[rp] res: {"engine.video.h264_qp_thresholds_high":""} 
+[05/10/23 12:01:02:243][509416][I]:user parameter value found for h264_qp_thresholds_high : 
+[05/10/23 12:01:02:243][509416][I]:No tds value found for override_smallvideo_not_use_hwenc_policy
+
+[05/10/23 12:01:02:243][509416][A]:(00005251):     RtcEngine::getParameters(this:000001D146E258E0, key:"["rtc.video.bitrate_adjust_ratio"]")
+[05/10/23 12:01:02:243][440224][I]:[rp] ["rtc.video.bitrate_adjust_ratio"]
+[05/10/23 12:01:02:243][440224][I]:[rp] res: {"rtc.video.bitrate_adjust_ratio":"1.0"} 
+[05/10/23 12:01:02:243][509416][I]:user parameter value found for bitrate adjust ratio : 1.0
+[05/10/23 12:01:02:243][509416][A]:(00005252):     RtcEngine::getParameters(this:000001D146E258E0, key:"["rtc.video.minbitrate_ratio"]")
+[05/10/23 12:01:02:244][440224][I]:[rp] ["rtc.video.minbitrate_ratio"]
+[05/10/23 12:01:02:244][440224][I]:[rp] res: {"rtc.video.minbitrate_ratio":""} 
+[05/10/23 12:01:02:244][509416][I]:user parameter value found for min bitrate ratio : 
+[05/10/23 12:01:02:244][509416][A]:(00005253):     RtcEngine::getParameters(this:000001D146E258E0, key:"["che.video.rate_control_mode"]")
+[05/10/23 12:01:02:244][440224][I]:[rp] ["che.video.rate_control_mode"]
+[05/10/23 12:01:02:244][440224][I]:[rp] res: {"che.video.rate_control_mode":""} 
+[05/10/23 12:01:02:244][509416][I]:user parameter value found for rate control mode : 
+[05/10/23 12:01:02:245][509416][U]:(00005254): RtcEngine::setChannelProfile(this:000001D146E258E0, profile:0)
+[05/10/23 12:01:02:245][509416][A]:(00005255):   RtcEngine::setClientRoleInternal(this:000001D146E258E0, role:1)
+[05/10/23 12:01:02:246][509416][A]:(00005256):     RtcEngine::setClientRoleInternal(this:000001D146E258E0, role:1, audience latency level: 2)
+[05/10/23 12:01:02:246][440224][W]:[CHP] updateMediaOptions in wrong state 1, conn id 0
+[05/10/23 12:01:02:246][440224][I]:[CHM] updateMediaOptions fail. connection:  channelId: uid:0 userId:
+[05/10/23 12:01:02:246][509416][A]:(00005257):   RtcEngine::setParametersInternal(this:000001D146E258E0, parameters:[{"rtc.channel_profile":0}])
+[05/10/23 12:01:02:246][440224][I]:[rp] {"rtc.channel_profile":0}
+[05/10/23 12:01:02:246][440224][W]:[diag] Receive debug enabled 1 from config service
+[05/10/23 12:01:02:246][440224][I]:[VSM]: user parameter enable_hw_decoder : 
+[05/10/23 12:01:02:246][440224][I]:[VSM]: user parameter hardware_decoding : -1
+[05/10/23 12:01:02:246][440224][I]:[VSM]: user parameter value found for enable_video_freeze_diagnose : true
+[05/10/23 12:01:02:246][440224][I]:[VSM]: user parameter value found for retrans_detect_enable : false
+[05/10/23 12:01:02:246][440224][I]:[VSM]: user parameter value found for use_sent_ts_enable : true
+[05/10/23 12:01:02:246][440224][I]:[VSM]: user parameter enable_minor_stream_intra_request : 0
+[05/10/23 12:01:02:246][440224][I]:[VSM]: no TDS value found for switch_soft_decoder_threshold
+[05/10/23 12:01:02:246][440224][I]:[VSM]: no TDS value found for enable_parser_reject
+[05/10/23 12:01:02:246][440224][I]:[VSM]: no TDS value found for enable_hw_decoder
+[05/10/23 12:01:02:246][440224][I]:[VSM]: no TDS value found for dec_mosreport
+[05/10/23 12:01:02:246][440224][I]:[VSM]: no TDS value found for che.hardware_decoding
+[05/10/23 12:01:02:246][440224][I]:[VSM]: no TDS value found for tds_retrans_detect_enable
+[05/10/23 12:01:02:246][440224][I]:[VSM]: no TDS value found for tds_use_sent_ts_enable
+[05/10/23 12:01:02:246][440224][I]:[VSM]: user parameter value found for packet_buffer_size : 2048
+[05/10/23 12:01:02:246][440224][I]:[VSM]: no TDS value found for packet_buffer_size
+[05/10/23 12:01:02:246][440224][I]:[VSM]: user parameter value found for enable_vpr : true
+[05/10/23 12:01:02:246][440224][I]:[VSM]: user parameter value found for che.video.vpr.init_size : 1
+[05/10/23 12:01:02:246][440224][I]:[VSM]: user parameter value found for che.video.vpr.max_size : 3
+[05/10/23 12:01:02:246][440224][I]:[VSM]: user parameter value found for che.video.vpr.frozen_ms_thres : 200
+[05/10/23 12:01:02:246][440224][I]:[VSM]: user parameter value found for che.video.vpr.frozen_rate_thres : 5
+[05/10/23 12:01:02:246][440224][I]:[VSM]: user parameter value found for che.video.vpr.method : 0
+[05/10/23 12:01:02:246][440224][I]:[VSM]: user parameter value found for che.video.vpr.vpr_adaptive_thres : 50
+[05/10/23 12:01:02:247][509416][U]:(00005258): RtcEngine::setClientRole(this:000001D146E258E0, role:1)
+[05/10/23 12:01:02:247][509416][A]:(00005259):   RtcEngine::setClientRoleInternal(this:000001D146E258E0, role:1)
+[05/10/23 12:01:02:247][509416][A]:(00005260):     RtcEngine::setClientRoleInternal(this:000001D146E258E0, role:1, audience latency level: 2)
+[05/10/23 12:01:02:249][440224][I]:on set parameters doc='{"rtc.channel_profile":0}', ret=0
+[05/10/23 12:01:02:250][440224][W]:[CHP] updateMediaOptions in wrong state 1, conn id 0
+[05/10/23 12:01:02:250][440224][I]:[CHM] updateMediaOptions fail. connection:  channelId: uid:0 userId:
+[05/10/23 12:01:02:267][440224][I]:[ipstack]: apply stack ipv4 same as preference
+[05/10/23 12:01:02:267][440224][I]:[ap-6] response from 164.******.59:8443 success, opid: 361848313, service_id: 6, uri: 7
+[05/10/23 12:01:02:267][440224][I]:[CS]:t, ap 164.******.59:8443 returns 
+[05/10/23 12:01:02:267][440224][I]:[CS]: AP Tds success with config: {"_store enable xdump since 3.4.6":{"A":{"rtc.enable_xdump":true,"rtc.enable_xdump_file":true,"rtc.enable_xdump_upload":true}},"_store For PC Screenshare: Global Configuration for scc_auto_framerate #47272":{"A":{"che.video.min_scc_auto_framerate":3}}}, size: 2
+[05/10/23 12:01:02:268][440224][W]:[diag] Receive debug enabled 1 from config service
+[05/10/23 12:01:02:268][440224][I]:[VSM]: user parameter enable_hw_decoder : 
+[05/10/23 12:01:02:268][440224][I]:[VSM]: user parameter hardware_decoding : -1
+[05/10/23 12:01:02:268][440224][I]:[VSM]: user parameter value found for enable_video_freeze_diagnose : true
+[05/10/23 12:01:02:268][440224][I]:[VSM]: user parameter value found for retrans_detect_enable : false
+[05/10/23 12:01:02:268][440224][I]:[VSM]: user parameter value found for use_sent_ts_enable : true
+[05/10/23 12:01:02:268][440224][I]:[VSM]: user parameter enable_minor_stream_intra_request : 0
+[05/10/23 12:01:02:268][440224][I]:[VSM]: no TDS value found for switch_soft_decoder_threshold
+[05/10/23 12:01:02:268][440224][I]:[VSM]: no TDS value found for enable_parser_reject
+[05/10/23 12:01:02:268][440224][I]:[VSM]: no TDS value found for enable_hw_decoder
+[05/10/23 12:01:02:269][440224][I]:[VSM]: no TDS value found for dec_mosreport
+[05/10/23 12:01:02:269][440224][I]:[VSM]: no TDS value found for che.hardware_decoding
+[05/10/23 12:01:02:269][440224][I]:[VSM]: no TDS value found for tds_retrans_detect_enable
+[05/10/23 12:01:02:269][440224][I]:[VSM]: no TDS value found for tds_use_sent_ts_enable
+[05/10/23 12:01:02:269][440224][I]:[VSM]: user parameter value found for packet_buffer_size : 2048
+[05/10/23 12:01:02:269][440224][I]:[VSM]: no TDS value found for packet_buffer_size
+[05/10/23 12:01:02:269][440224][I]:[VSM]: user parameter value found for enable_vpr : true
+[05/10/23 12:01:02:269][440224][I]:[VSM]: user parameter value found for che.video.vpr.init_size : 1
+[05/10/23 12:01:02:269][440224][I]:[VSM]: user parameter value found for che.video.vpr.max_size : 3
+[05/10/23 12:01:02:269][440224][I]:[VSM]: user parameter value found for che.video.vpr.frozen_ms_thres : 200
+[05/10/23 12:01:02:269][440224][I]:[VSM]: user parameter value found for che.video.vpr.frozen_rate_thres : 5
+[05/10/23 12:01:02:269][440224][I]:[VSM]: user parameter value found for che.video.vpr.method : 0
+[05/10/23 12:01:02:269][440224][I]:[VSM]: user parameter value found for che.video.vpr.vpr_adaptive_thres : 50
+[05/10/23 12:01:02:274][440224][I]:[CONN-0]: not in call, it is setting abtest now...
+[05/10/23 12:01:02:275][440224][I]:on set parameters doc='{"rtc.enable_xdump":true,"rtc.enable_xdump_file":true,"rtc.enable_xdump_upload":true}', ret=-4
+[05/10/23 12:01:02:275][440224][I]:on set parameters doc='{"che.video.min_scc_auto_framerate":3}', ret=-4
+[05/10/23 12:01:02:275][440224][I]:[ap-5] connected to 164.******.62:8443, transport type = 1
+[05/10/23 12:01:02:275][440224][I]:[ap-5] send message to: 164.******.62:8443 with opid: 496818035, transport type = 1, send ts = 1683700262275
+[05/10/23 12:01:02:282][440224][I]:[remote:103.******.16:8443] receive server hello piece id: 0, 1/1, complete
+[05/10/23 12:01:02:283][440224][I]:[TM]: Evaluate cert chain size 3
+[05/10/23 12:01:02:283][440224][I]:[TM]: Add cert to cert store
+[05/10/23 12:01:02:283][440224][I]:[TM]: Add root certs to cert store
+[05/10/23 12:01:02:283][440224][I]:[TM]: Begin verify leaf cert
+[05/10/23 12:01:02:283][440224][I]:[TM]: End verify leaf cert, ret succ
+[05/10/23 12:01:02:283][440224][I]:[remote:103.******.16:8443] current in 0th connect, send client response 7558348|ack:1805874, early data: 461, tags: , CID: 6029076829377935784
+[05/10/23 12:01:02:283][440224][I]:[6029076829377935784|remote:103.******.16:8443] set congestion control type: BBRv1 pacing: true, initial cwin in pkts: 20
+[05/10/23 12:01:02:283][440224][I]:[6029076829377935784|remote:103.******.16:8443] set loss detection type: AdaptiveSequence
+[05/10/23 12:01:02:283][440224][I]:[6029076829377935784|remote:103.******.16:8443] create path 000001D16BBD2D00, self initial seq: 7558349, peer initial seq: 1805875, local public address: 0, initial rtt: 79ms, version: Unknown, forged protocol: 0, connection_id: 6029076829377935784, path_id: null, cc: BBRv1, pacing: true
+[05/10/23 12:01:02:283][440224][I]:[6029076829377935784|remote:103.******.16:8443] SetFromConfig max_packet_size:1280, mtu_discover_target:1450, initial_bandwidth_estimation:0 kbps, enable_connection_migration:true, 
+[05/10/23 12:01:02:284][440224][I]:[6029076829377935784|remote:103.******.16:8443] [6029076829377935784|remote:103.******.16:8443] 1298445170 switch best path to [6029076829377935784|remote:103.******.16:8443] , predict transfer time: 79ms, rtt : 79ms, loss 0
+[05/10/23 12:01:02:284][440224][I]:[6029076829377935784|remote:103.******.16:8443] create connection 000001D1176712E0, self initial seq: 7558349, peer initial seq: 1805875, initial rtt: 79ms, version: Unknown, connection_id: 6029076829377935784, perspective: Perspective::kClient, multipath: false, reinjection strategy: kReinjectIfPossible, path scheduling: kDynamic
+[05/10/23 12:01:02:284][440224][I]:[6029076829377935784|remote:103.******.16:8443] SetFromConfig max_packet_size:1280, mtu_discover_target:1450, initial_bandwidth_estimation:0 kbps, enable_connection_migration:true, 
+[05/10/23 12:01:02:284][440224][I]:[6029076829377935784|remote:103.******.16:8443] create session 000001D117671770
+[05/10/23 12:01:02:284][440224][I]:[ap-6] connected to 103.******.16:8443, transport type = 5
+[05/10/23 12:01:02:284][440224][I]:[6029076829377935784|remote:103.******.16:8443] destroy session 000001D117671770
+[05/10/23 12:01:02:284][440224][I]:[6029076829377935784|remote:103.******.16:8443] start last ack, duration: 2000 ms
+[05/10/23 12:01:02:284][440224][I]:destroy dangling client connection 000001D0932AAEA0
+[05/10/23 12:01:02:284][440224][I]:destroy session builder 000001D15FF42270
+[05/10/23 12:01:02:284][440224][I]:[6029076829377935784|remote:103.******.16:8443] destroy connection 000001D1176712E0
+[05/10/23 12:01:02:284][440224][I]:[6029076829377935784|remote:103.******.16:8443] destroy path 000001D16BBD2D00
+[05/10/23 12:01:02:306][440224][I]:[ap-6] response from 138.******.131:8443 success, opid: 361848306, service_id: 6, uri: 7
+[05/10/23 12:01:02:306][440224][I]:[CS]:u, ap 138.******.131:8443 returns 
+[05/10/23 12:01:02:306][440224][I]:[CS]: AP Tds success with config: {"_store enable xdump since 3.4.6":{"A":{"rtc.enable_xdump":true,"rtc.enable_xdump_file":true,"rtc.enable_xdump_upload":true}},"_store For PC Screenshare: Global Configuration for scc_auto_framerate #47272":{"A":{"che.video.min_scc_auto_framerate":3}}}, size: 2
+[05/10/23 12:01:02:306][440224][I]:[CALLCTX]: here are tds, but isABTestSuccess is true...
+[05/10/23 12:01:02:306][440224][I]:[7386079226360717457|remote:138.******.131:8443] destroy session 000001D1600BCCA0
+[05/10/23 12:01:02:306][440224][I]:[7386079226360717457|remote:138.******.131:8443] start last ack, duration: 2000 ms
+[05/10/23 12:01:02:306][440224][I]:destroy session builder 000001D16B41C310
+[05/10/23 12:01:02:306][440224][I]:[7386079226360717457|remote:138.******.131:8443] destroy connection 000001D1600BBA60
+[05/10/23 12:01:02:306][440224][I]:[7386079226360717457|remote:138.******.131:8443] destroy path 000001D16BBCDED0
+[05/10/23 12:01:02:321][440224][I]:[ap-6] response from 103.******.16:8443 success, opid: 361848307, service_id: 6, uri: 7
+[05/10/23 12:01:02:321][440224][I]:[CS]:u, ap 103.******.16:8443 returns 
+[05/10/23 12:01:02:321][440224][I]:[CS]: AP Tds success with config: {"_store enable xdump since 3.4.6":{"A":{"rtc.enable_xdump":true,"rtc.enable_xdump_file":true,"rtc.enable_xdump_upload":true}},"_store For PC Screenshare: Global Configuration for scc_auto_framerate #47272":{"A":{"che.video.min_scc_auto_framerate":3}}}, size: 2
+[05/10/23 12:01:02:322][440224][I]:[CALLCTX]: here are tds, but isABTestSuccess is true...
+[05/10/23 12:01:02:322][440224][I]:[1934595802391367513|remote:103.******.16:8443] destroy session 000001D1600BC380
+[05/10/23 12:01:02:322][440224][I]:[1934595802391367513|remote:103.******.16:8443] start last ack, duration: 2000 ms
+[05/10/23 12:01:02:322][440224][I]:destroy session builder 000001D1470BFB20
+[05/10/23 12:01:02:322][440224][I]:[1934595802391367513|remote:103.******.16:8443] destroy connection 000001D1600BBEF0
+[05/10/23 12:01:02:322][440224][I]:[1934595802391367513|remote:103.******.16:8443] destroy path 000001D16BBD6120
+[05/10/23 12:01:02:356][440224][I]:[remote:129.******.85:8130] start 1th connect, send client hello 3097764|syn, early data: 0, tags: SNI :3132392d3232...(28), NELD:, PDMD:, CPTO:4e4f4e432000...(129), CCRT:ed4ebf414f0f...(24), CID: 6336803151927297298
+[05/10/23 12:01:02:358][440224][I]:[ap-5] response from 164.******.62:8443 success, opid: 496818035, service_id: 5, uri: 2
+[05/10/23 12:01:02:358][440224][I]:[rlbs/t]  responsed from 164.******.62:8443 with 3 servers: 129.******.98, 128.******.156, 122.******.165, 
+[05/10/23 12:01:02:358][440224][I]:[rs] updateServers 129.******.98:8130, priority 3
+[05/10/23 12:01:02:358][440224][I]:[rs] updateServers 128.******.156:8130, priority 3
+[05/10/23 12:01:02:358][440224][I]:[rs] updateServers 122.******.165:8130, priority 3
+[05/10/23 12:01:02:359][440224][I]:create session builder 000001D1610A6C20
+[05/10/23 12:01:02:359][440224][I]:destroy session builder 000001D15FF3B0B0
+[05/10/23 12:01:02:359][440224][I]:destroy dangling client connection 000001D09329C030
+[05/10/23 12:01:02:359][440224][I]:[12179757067079190003|remote:155.******.172:8443] destroy session 000001D117670E50
+[05/10/23 12:01:02:359][440224][I]:[12179757067079190003|remote:155.******.172:8443] start last ack, duration: 2000 ms
+[05/10/23 12:01:02:359][440224][I]:destroy session builder 000001D15FF3F1B0
+[05/10/23 12:01:02:359][440224][I]:[12179757067079190003|remote:155.******.172:8443] destroy connection 000001D1176709C0
+[05/10/23 12:01:02:359][440224][I]:[12179757067079190003|remote:155.******.172:8443] destroy path 000001D16BBCF8E0
+[05/10/23 12:01:02:359][440224][I]:create dangling client connection 000001D09329C030
+[05/10/23 12:01:02:359][440224][I]:[remote:129.******.98:8130] start 0th connect, send client hello 2287159|syn, early data: 0, tags: SNI :3132392d3232...(28), NELD:, PDMD:, CPTO:4e4f4e432000...(129), CCRT:ed4ebf414f0f...(24), CID: 11251465518633334054
+[05/10/23 12:01:02:360][440224][I]:[remote:164.******.244:8443] start 1th connect, send client hello 15460448|syn, early data: 0, tags: SNI :3136342d3532...(27), PDMD:, CPTO:4e4f4e432000...(129), CCRT:ed4ebf414f0f...(24), CID: 16055049612515851313
+[05/10/23 12:01:02:391][440224][I]:[remote:164.******.244:8443] receive server hello piece id: 0, 1/1, complete
+[05/10/23 12:01:02:391][440224][I]:[TM]: Evaluate cert chain size 3
+[05/10/23 12:01:02:391][440224][I]:[TM]: Add cert to cert store
+[05/10/23 12:01:02:391][440224][I]:[TM]: Add root certs to cert store
+[05/10/23 12:01:02:391][440224][I]:[TM]: Begin verify leaf cert
+[05/10/23 12:01:02:391][440224][I]:[TM]: End verify leaf cert, ret succ
+[05/10/23 12:01:02:392][440224][I]:[remote:164.******.244:8443] current in 1th connect, send client response 15460448|ack:6704989, early data: 461, tags: , CID: 16055049612515851313
+[05/10/23 12:01:02:392][440224][I]:[16055049612515851313|remote:164.******.244:8443] set congestion control type: BBRv1 pacing: true, initial cwin in pkts: 24
+[05/10/23 12:01:02:392][440224][I]:[16055049612515851313|remote:164.******.244:8443] set loss detection type: AdaptiveSequence
+[05/10/23 12:01:02:392][440224][I]:[16055049612515851313|remote:164.******.244:8443] create path 000001D117706B00, self initial seq: 15460449, peer initial seq: 6704990, local public address: 0, initial rtt: 248ms, version: Unknown, forged protocol: 0, connection_id: 16055049612515851313, path_id: null, cc: BBRv1, pacing: true
+[05/10/23 12:01:02:392][440224][I]:[16055049612515851313|remote:164.******.244:8443] SetFromConfig max_packet_size:1280, mtu_discover_target:1450, initial_bandwidth_estimation:0 kbps, enable_connection_migration:true, 
+[05/10/23 12:01:02:392][440224][I]:[16055049612515851313|remote:164.******.244:8443] [16055049612515851313|remote:164.******.244:8443] 1298445279 switch best path to [16055049612515851313|remote:164.******.244:8443] , predict transfer time: 248ms, rtt : 248ms, loss 0
+[05/10/23 12:01:02:392][440224][I]:[16055049612515851313|remote:164.******.244:8443] create connection 000001D0933D9FC0, self initial seq: 15460449, peer initial seq: 6704990, initial rtt: 248ms, version: Unknown, connection_id: 16055049612515851313, perspective: Perspective::kClient, multipath: false, reinjection strategy: kReinjectIfPossible, path scheduling: kDynamic
+[05/10/23 12:01:02:392][440224][I]:[16055049612515851313|remote:164.******.244:8443] SetFromConfig max_packet_size:1280, mtu_discover_target:1450, initial_bandwidth_estimation:0 kbps, enable_connection_migration:true, 
+[05/10/23 12:01:02:392][440224][I]:[16055049612515851313|remote:164.******.244:8443] create session 000001D0933D5230
+[05/10/23 12:01:02:392][440224][I]:[ap-6] connected to 164.******.244:8443, transport type = 5
+[05/10/23 12:01:02:392][440224][I]:[16055049612515851313|remote:164.******.244:8443] destroy session 000001D0933D5230
+[05/10/23 12:01:02:392][440224][I]:[16055049612515851313|remote:164.******.244:8443] start last ack, duration: 2000 ms
+[05/10/23 12:01:02:392][440224][I]:destroy dangling client connection 000001D0669A7480
+[05/10/23 12:01:02:392][440224][I]:destroy session builder 000001D1470BEEF0
+[05/10/23 12:01:02:392][440224][I]:[16055049612515851313|remote:164.******.244:8443] destroy connection 000001D0933D9FC0
+[05/10/23 12:01:02:392][440224][I]:[16055049612515851313|remote:164.******.244:8443] destroy path 000001D117706B00
+[05/10/23 12:01:02:394][440224][I]:[remote:129.******.98:8130] receive server hello piece id: 0, 1/1, complete
+[05/10/23 12:01:02:395][440224][I]:[TM]: Evaluate cert chain size 3
+[05/10/23 12:01:02:395][440224][I]:[TM]: Add cert to cert store
+[05/10/23 12:01:02:395][440224][I]:[TM]: Add root certs to cert store
+[05/10/23 12:01:02:395][440224][I]:[TM]: Begin verify leaf cert
+[05/10/23 12:01:02:395][440224][I]:[TM]: End verify leaf cert, ret succ
+[05/10/23 12:01:02:395][440224][I]:[remote:129.******.98:8130] current in 0th connect, send client response 2287159|ack:15366181, early data: 0, tags: , CID: 11251465518633334054
+[05/10/23 12:01:02:395][440224][I]:[11251465518633334054|remote:129.******.98:8130] set congestion control type: BBRv1 pacing: true, initial cwin in pkts: 20
+[05/10/23 12:01:02:395][440224][I]:[11251465518633334054|remote:129.******.98:8130] set loss detection type: AdaptiveSequence
+[05/10/23 12:01:02:395][440224][I]:[11251465518633334054|remote:129.******.98:8130] create path 000001D117701CD0, self initial seq: 2287160, peer initial seq: 15366182, local public address: 0, initial rtt: 36ms, version: Unknown, forged protocol: 0, connection_id: 11251465518633334054, path_id: null, cc: BBRv1, pacing: true
+[05/10/23 12:01:02:395][440224][I]:[11251465518633334054|remote:129.******.98:8130] SetFromConfig max_packet_size:1280, mtu_discover_target:1450, initial_bandwidth_estimation:0 kbps, enable_connection_migration:true, 
+[05/10/23 12:01:02:395][440224][I]:[11251465518633334054|remote:129.******.98:8130] [11251465518633334054|remote:129.******.98:8130] 1298445282 switch best path to [11251465518633334054|remote:129.******.98:8130] , predict transfer time: 36ms, rtt : 36ms, loss 0
+[05/10/23 12:01:02:395][440224][I]:[11251465518633334054|remote:129.******.98:8130] create connection 000001D0933D5B50, self initial seq: 2287160, peer initial seq: 15366182, initial rtt: 36ms, version: Unknown, connection_id: 11251465518633334054, perspective: Perspective::kClient, multipath: false, reinjection strategy: kReinjectIfPossible, path scheduling: kDynamic
+[05/10/23 12:01:02:395][440224][I]:[11251465518633334054|remote:129.******.98:8130] SetFromConfig max_packet_size:1280, mtu_discover_target:1450, initial_bandwidth_estimation:0 kbps, enable_connection_migration:true, 
+[05/10/23 12:01:02:395][440224][I]:[11251465518633334054|remote:129.******.98:8130] create session 000001D0933D5230
+[05/10/23 12:01:02:395][440224][I]:[rs] link aut to 129.******.98:8130 connected
+[05/10/23 12:01:02:396][440224][I]:RawDataList has been sent && clear by 1 transportor, totoal buffer: 1
+[05/10/23 12:01:02:396][440224][I]:destroy dangling client connection 000001D09329C030
+[05/10/23 12:01:02:922][440224][I]:[ap-base] OnParsedDns ap3-tds.agora.io with err 0, 103.******.16, 138.******.131, 164.******.244, 
+[05/10/23 12:01:07:056][440224][I]:[RS]: **report stats: seq: 1, report list size 0, tx/rx: 0/48, cache size: 0
+[05/10/23 12:01:17:536][509416][U]:(00005261): VideoDeviceManager::release(this:000001D065F22770, void)
+[05/10/23 12:01:17:536][509416][U]:(00005262): RtcEngine::releaseRecorder(this:000001D146E258E0, void)
+[05/10/23 12:01:17:536][509416][U]:(00005263): RtcEngine::unregisterEventHandler(this:000001D146E258E0, eventHandler:000001D13DEF33E0)
+[05/10/23 12:01:17:536][509416][U]:(00005264): RtcEngine::release(this:000001D146E258E0, sync:1)
+[05/10/23 12:01:17:537][440224][I]:engine destructor
+[05/10/23 12:01:17:537][440224][A]:(00005265): AgoraService::createAudioDeviceManager(this:000001D154433820, void)
+[05/10/23 12:01:17:537][440224][A]:(00005266): AudioDeviceManagerImpl::unregisterObserver(this:000001D164379360, observer:000001D05C3FBAD8)
+[05/10/23 12:01:17:537][440224][A]:(00005267): RtcConnectionImpl::disconnect(this:000001D15328FD30, void)
+[05/10/23 12:01:17:537][440224][A]:(00005268): LocalUserImpl::unregisterLocalUserObserver(this:000001D1180F0880, observer:000001D15FF4E510)
+[05/10/23 12:01:17:537][440224][A]:(00005269): RtcConnectionImpl::unregisterObserver(this:000001D15328FD30, observer:000001D15FF4E500)
+[05/10/23 12:01:17:537][440224][A]:(00005270): LocalUserImpl::unregisterAudioFrameObserver(this:000001D1180F0880, observer:000001D156C97FE0)
+[05/10/23 12:01:17:537][440224][A]:(00005271): RtcConnectionImpl::unregisterNetworkObserver(this:000001D15328FD30, observer:000001D15FF4E508)
+[05/10/23 12:01:17:537][440224][A]:(00005272): RtcConnectionImpl::unregisterObserver(this:000001D15328FD30, observer:000001D15FF4E500)
+[05/10/23 12:01:17:537][440224][A]:(00005273): LocalUserImpl::unregisterLocalUserObserver(this:000001D1180F0880, observer:000001D15FF4E510)
+[05/10/23 12:01:17:537][440224][I]:[LUR]: 000001D1180F0880 destroying
+[05/10/23 12:01:17:537][440224][A]:(00005274): RtcConnectionImpl::unsubscribeReceivePacketHandler(this:000001D15328FD30, void)
+[05/10/23 12:01:17:537][440224][W]:[ASM]: AudioStreamManager::~dtor(000001D0937C53A0)
+[05/10/23 12:01:17:537][5948][I]:[ANMSS]: Remove audio source 000001D15A3EFA78, number of sources 1
+[05/10/23 12:01:17:537][5948][I]:[ANMSS]: Remove audio source 000001D15A3F0078, number of sources 0
+[05/10/23 12:01:17:537][440224][I]:[APT]: name:observer_recording_source AudioNodeMixerSource::~dtor(000001D15A3EFA70)
+[05/10/23 12:01:17:537][440224][I]:[APT]: name:observer_playout_source AudioNodeMixerSource::~dtor(000001D15A3F0070)
+[05/10/23 12:01:17:537][440224][A]:(00005275): RtcConnectionImpl::stopService(this:000001D15328FD30, waitForAll:0)
+[05/10/23 12:01:17:537][440224][I]:[LATM]: agora::rtc::LocalAudioTrackManager::destroyCustomAudioTracks
+[05/10/23 12:01:17:537][440224][I]:[LATM]: agora::rtc::LocalAudioTrackManager::~LocalAudioTrackManager
+[05/10/23 12:01:17:538][440224][I]:[LVTM]: cleanupLocalMediaTracks
+[05/10/23 12:01:17:538][440224][I]:[LVTM]: LocalVideoTrackManager deconstructor
+[05/10/23 12:01:17:538][440224][I]:[MPM]: MediaPlayerManager::~dtor begin(000001D05EDD2600)
+[05/10/23 12:01:17:538][440224][A]:(00005276): MediaPlayerImpl::unregisterPlayerSourceObserver(this:000001D05C101C50, observer:000001D05EDD2600)
+[05/10/23 12:01:17:538][440224][A]:(00005277): MediaPlayerImpl::getMediaPlayerId(this:000001D05C101C50, void)
+[05/10/23 12:01:17:538][440224][A]:(00005278):   MediaPlayerSourceFFMpeg::getSourceId(this:000001D13D9076B0, void)
+[05/10/23 12:01:17:538][440224][W]:[MPM]: Destroy audio mixing media player.
+[05/10/23 12:01:17:538][440224][A]:(00005279): MediaPlayerImpl::stop(this:000001D05C101C50, void)
+[05/10/23 12:01:17:538][440224][I]:[MPI]: MediaPlayerImpl::stop (000001D05C101C50), sync(1)
+[05/10/23 12:01:17:538][440224][I]:[MPI]: need to send lastframe: 0
+[05/10/23 12:01:17:538][257912][A]:(00005280): MediaPlayerImpl::stop(this:000001D159B72880, void)
+[05/10/23 12:01:17:538][257912][I]:media_player_impl.cpp:1347@stop|000001D159B72880|mpk#0>> start
+[05/10/23 12:01:17:538][257912][I]:[MPI]: need to send lastframe: 0
+[05/10/23 12:01:17:538][257912][I]:[MPI]: removeAllPreloadSource 0
+[05/10/23 12:01:17:538][257912][I]: [MPI] over
+[05/10/23 12:01:17:538][257912][A]:(00005281):   MediaPlayerImpl::setRenderLastVideoFrame(this:000001D159B72880, void)
+[05/10/23 12:01:17:538][440224][A]:(00005282):   MediaPlayerImpl::setRenderLastVideoFrame(this:000001D05C101C50, void)
+[05/10/23 12:01:17:538][440224][A]:(00005283):   LocalAudioTrackMediaPlayerImpl::enableLocalPlayback(this:000001D15A6E3DB0, enable:0, sync:1)
+[05/10/23 12:01:17:538][440224][A]:(00005284):     LocalAudioTrackImpl::enableLocalPlayback(this:000001D15A6E3DB0, enable:0, sync:1)
+[05/10/23 12:01:17:538][440224][A]:(00005285):     LocalAudioTrackMediaPlayerImpl::enableLocalPlaybackInternal(this:000001D15A6E3DB0, enable = 0)
+[05/10/23 12:01:17:538][440224][A]:(00005286):       LocalAudioTrackMediaPlayerImpl::destroyLocalPlaybackPipeline(this:000001D15A6E3DB0, void)
+[05/10/23 12:01:17:538][440224][E]:[LATMP]: invalid local_playback_source_.
+[05/10/23 12:01:17:538][440224][E]:[LATMP]: local playback has been disabled.
+[05/10/23 12:01:17:538][440224][I]:[MPI]: MediaPlayerImpl::release (000001D05C101C50)
+[05/10/23 12:01:17:538][440224][A]:(00005287): MediaPlayerSourceFFMpeg::unregisterPlayerSourceObserver(this:000001D13D9076B0, observer: 000001D05C101C58)
+[05/10/23 12:01:17:538][440224][A]:(00005288): MediaPlayerImpl::stop(this:000001D05C101C50, void)
+[05/10/23 12:01:17:538][440224][I]:[MPI]: MediaPlayerImpl::stop (000001D05C101C50), sync(1)
+[05/10/23 12:01:17:538][440224][I]:[MPI]: need to send lastframe: 0
+[05/10/23 12:01:17:538][257912][A]:(00005289): MediaPlayerImpl::stop(this:000001D159B72880, void)
+[05/10/23 12:01:17:538][257912][I]:media_player_impl.cpp:1347@stop|000001D159B72880|mpk#0>> start
+[05/10/23 12:01:17:538][257912][I]:[MPI]: need to send lastframe: 0
+[05/10/23 12:01:17:538][257912][I]:[MPI]: removeAllPreloadSource 0
+[05/10/23 12:01:17:538][257912][I]: [MPI] over
+[05/10/23 12:01:17:538][257912][A]:(00005290):   MediaPlayerImpl::setRenderLastVideoFrame(this:000001D159B72880, void)
+[05/10/23 12:01:17:538][440224][A]:(00005291):   MediaPlayerImpl::setRenderLastVideoFrame(this:000001D05C101C50, void)
+[05/10/23 12:01:17:538][440224][A]:(00005292):   LocalAudioTrackMediaPlayerImpl::enableLocalPlayback(this:000001D15A6E3DB0, enable:0, sync:1)
+[05/10/23 12:01:17:538][440224][A]:(00005293):     LocalAudioTrackImpl::enableLocalPlayback(this:000001D15A6E3DB0, enable:0, sync:1)
+[05/10/23 12:01:17:538][440224][A]:(00005294):     LocalAudioTrackMediaPlayerImpl::enableLocalPlaybackInternal(this:000001D15A6E3DB0, enable = 0)
+[05/10/23 12:01:17:538][440224][A]:(00005295):       LocalAudioTrackMediaPlayerImpl::destroyLocalPlaybackPipeline(this:000001D15A6E3DB0, void)
+[05/10/23 12:01:17:538][440224][E]:[LATMP]: invalid local_playback_source_.
+[05/10/23 12:01:17:538][440224][E]:[LATMP]: local playback has been disabled.
+[05/10/23 12:01:17:539][87944][I]:[BW]: BaseWorker (LocalPipeLineDataWorkerYuv) started: 000001D15F5677A0
+[05/10/23 12:01:17:539][440224][A]:(00005296): LocalVideoTrackImpl::setEnabled(this:000001D146F72190, enable:0)
+[05/10/23 12:01:17:539][440224][A]:(00005297): LocalVideoTrackImpl::removeRenderer(this:000001D146F72190, videoRenderer:000001D063040460)
+[05/10/23 12:01:17:539][440224][I]:[LVT]: id 23 000001D146F72190 is destroyed 
+[05/10/23 12:01:17:539][440224][A]:(00005298): LocalVideoTrackImpl::setEnabled(this:000001D146F72190, enable:0)
+[05/10/23 12:01:17:539][440224][A]:(00005299): LocalVideoTrackImpl::enableSimulcastStreamInternal(this:000001D146F72190, enable:0, config:(dimensions:(width:-1, height:-1), bitrateKbps:-1))
+[05/10/23 12:01:17:539][440224][I]:[LVT]: Enable simulcast stream internal with same config, ignore it.
+[05/10/23 12:01:17:539][440224][I]:[VW]: Destruct watermark object, this: 000001D13DF06430.
+[05/10/23 12:01:17:539][440224][I]:[VW]: Destruct watermark object, this: 000001D13DF05A70.
+[05/10/23 12:01:17:539][440224][A]:(00005300): IAudioFilterComposite::removeAllAudioFilters(this:000001D066076BE0, void)
+[05/10/23 12:01:17:539][440224][A]:(00005301): LocalAudioTrackImpl::removeAudioFilter(this:000001D15A6E3DB0, filter: 000001D066076BE0, name: media_player, position: 3)
+[05/10/23 12:01:17:539][440224][W]:[LAT]: cannot add audio filter when audio track has been enabled.
+[05/10/23 12:01:17:539][440224][A]:(00005302): LocalAudioTrackImpl::removeAudioFilter(this:000001D15A6E3DB0, filter: 000001D16437A940, name: audio_dual_mono, position: 3)
+[05/10/23 12:01:17:539][440224][W]:[LAT]: cannot add audio filter when audio track has been enabled.
+[05/10/23 12:01:17:539][440224][A]:(00005303): LocalAudioTrackMediaPlayerImpl::enableLocalPlayback(this:000001D15A6E3DB0, enable:0, sync:0)
+[05/10/23 12:01:17:539][440224][A]:(00005304):   LocalAudioTrackImpl::enableLocalPlayback(this:000001D15A6E3DB0, enable:0, sync:0)
+[05/10/23 12:01:17:539][440224][A]:(00005305):   LocalAudioTrackMediaPlayerImpl::enableLocalPlaybackInternal(this:000001D15A6E3DB0, enable = 0)
+[05/10/23 12:01:17:539][440224][E]:[LATMP]: local playback has been disabled.
+[05/10/23 12:01:17:539][440224][A]:(00005306): LocalAudioTrackMediaPlayerImpl::setEnabled(this:000001D15A6E3DB0, enable:0)
+[05/10/23 12:01:17:539][440224][A]:(00005307):   LocalAudioTrackImpl::setEnabled(this:000001D15A6E3DB0, enable: 0)
+[05/10/23 12:01:17:539][440224][A]:(00005308):   LocalAudioTrackMediaPlayerImpl::enableLocalPlaybackInternal(this:000001D15A6E3DB0, enable = 0)
+[05/10/23 12:01:17:539][440224][E]:[LATMP]: local playback has been disabled.
+[05/10/23 12:01:17:539][440224][W]:[LATMP]: Local audio pcm track has not been published
+[05/10/23 12:01:17:539][440224][A]:(00005309): LocalAudioTrackMediaPlayerImpl::enableLocalPlayback(this:000001D15A6E3DB0, enable:0, sync:0)
+[05/10/23 12:01:17:539][440224][A]:(00005310):   LocalAudioTrackImpl::enableLocalPlayback(this:000001D15A6E3DB0, enable:0, sync:0)
+[05/10/23 12:01:17:539][440224][A]:(00005311):   LocalAudioTrackMediaPlayerImpl::enableLocalPlaybackInternal(this:000001D15A6E3DB0, enable = 0)
+[05/10/23 12:01:17:539][440224][E]:[LATMP]: local playback has been disabled.
+[05/10/23 12:01:17:539][440224][I]:[APS]: AudioPcmSource::~dtor(000001D064533150)
+[05/10/23 12:01:17:539][440224][A]:(00005312): IAudioFilterComposite::removeAllAudioFilters(this:000001D05F99E990, void)
+[05/10/23 12:01:17:539][440224][A]:(00005313): IAudioFilterComposite::removeAllAudioFilters(this:000001D05F99EED0, void)
+[05/10/23 12:01:17:539][440224][A]:(00005314): IAudioFilterComposite::removeAllAudioFilters(this:000001D05F9A0190, void)
+[05/10/23 12:01:17:539][257912][A]:(00005315): MediaPlayerImpl::stop(this:000001D159B72880, void)
+[05/10/23 12:01:17:539][257912][I]:media_player_impl.cpp:1347@stop|000001D159B72880|mpk#0>> start
+[05/10/23 12:01:17:539][257912][I]:[MPI]: need to send lastframe: 0
+[05/10/23 12:01:17:539][257912][I]:[MPI]: removeAllPreloadSource 0
+[05/10/23 12:01:17:539][257912][I]: [MPI] over
+[05/10/23 12:01:17:539][257912][A]:(00005316):   MediaPlayerImpl::setRenderLastVideoFrame(this:000001D159B72880, void)
+[05/10/23 12:01:17:539][257912][A]:(00005317): MediaPlayerImpl::unregisterAudioFrameObserver(this:000001D159B72880, observer:000001D13D9076C0)
+[05/10/23 12:01:17:539][257912][A]:(00005318): MediaPlayerImpl::unregisterVideoFrameObserver(this:000001D159B72880, observer:000001D13D9076B8)
+[05/10/23 12:01:17:539][257912][A]:(00005319): MediaPlayerImpl::unregisterPlayerSourceObserver(this:000001D159B72880, observer:000001D13D9076B0)
+[05/10/23 12:01:17:539][257912][A]:(00005320): MediaPlayerImpl::release(this:000001D159B72880, this:000001D159B72880)
+[05/10/23 12:01:17:539][257912][A]:(00005321):   MediaPlayerImpl::stop(this:000001D159B72880, void)
+[05/10/23 12:01:17:539][257912][I]:media_player_impl.cpp:1347@stop|000001D159B72880|mpk#0>> start
+[05/10/23 12:01:17:539][257912][I]:[MPI]: need to send lastframe: 0
+[05/10/23 12:01:17:539][257912][I]:[MPI]: removeAllPreloadSource 0
+[05/10/23 12:01:17:539][257912][I]: [MPI] over
+[05/10/23 12:01:17:539][257912][A]:(00005322):     MediaPlayerImpl::setRenderLastVideoFrame(this:000001D159B72880, void)
+[05/10/23 12:01:17:540][257912][I]:media_player_impl.cpp:503@destroy|000001D159B72880|mpk#0>> start
+[05/10/23 12:01:17:540][257912][I]:media_player_impl.cpp:511@destroy|000001D159B72880|mpk#0>> end
+[05/10/23 12:01:17:540][257912][W]:media_player_source_ffmpeg.cc:125@~MediaPlayerSourceFfmpeg|000001D1548651B0|mpk#0>> dtor of MediaPlayerSourceFfmpeg begin
+[05/10/23 12:01:17:540][257912][I]:media_player_source_ffmpeg.cc:1641@StopSyncHelper|000001D1548651B0|mpk#0>> StopSyncHelper begin
+[05/10/23 12:01:17:540][257912][I]:media_player_source_ffmpeg.cc:1657@StopSyncHelper|000001D1548651B0|mpk#0>> StopSyncHelper reader thread stop begin
+[05/10/23 12:01:17:540][257912][I]:media_player_source_ffmpeg.cc:1659@StopSyncHelper|000001D1548651B0|mpk#0>> StopSyncHelper reader thread stop end
+[05/10/23 12:01:17:540][257912][I]:media_player_source_ffmpeg.cc:1663@StopSyncHelper|000001D1548651B0|mpk#0>> StopSyncHelper sync thread stop begin
+[05/10/23 12:01:17:540][257912][I]:media_player_source_ffmpeg.cc:1665@StopSyncHelper|000001D1548651B0|mpk#0>> StopSyncHelper sync thread stop end
+[05/10/23 12:01:17:540][257912][I]:media_player_source_ffmpeg.cc:1681@operator ()|000001D1548651B0|mpk#0>> StopSyncHelper reader CloseAvFormatInput
+[05/10/23 12:01:17:540][257912][I]:media_player_source_ffmpeg.cc:1686@StopSyncHelper|000001D1548651B0|mpk#0>> StopSyncHelper all threads stopped
+[05/10/23 12:01:17:540][257912][I]:media_player_source_ffmpeg.cc:1699@StopSyncHelper|000001D1548651B0|mpk#0>> StopSyncHelper end
+[05/10/23 12:01:17:540][257912][I]:media_player_source_ffmpeg.cc:149@~MediaPlayerSourceFfmpeg|000001D1548651B0|mpk#0>> ~MediaPlayerSourceFfmpeg
+[05/10/23 12:01:17:540][257912][I]:media_stream_sync_impl.cc:223@~MediaStreamSyncImpl|000001D15EAFACC0|mpk#0>> dtor of MediaStreamSyncImpl
+[05/10/23 12:01:17:540][257912][I]:media_reader_impl.cc:137@~MediaReaderImpl|000001D13D7EC720|mpk#0>> ~MediaReaderImpl
+[05/10/23 12:01:17:540][257912][I]:media_player_impl.cpp:500@~MediaPlayerImpl|000001D159B72880|mpk#0>> ~MediaPlayerImpl
+[05/10/23 12:01:17:540][440224][I]:[MPI]: MediaPlayerImpl::release end (000001D05C101C50)
+[05/10/23 12:01:17:540][440224][I]:[MPI]: MediaPlayerImpl::~dtor begin(000001D05C101C50)
+[05/10/23 12:01:17:540][440224][I]:[MPI]: MediaPlayerImpl::~dtor end(000001D05C101C50)
+[05/10/23 12:01:17:540][440224][I]:[MPM]: MediaPlayerManager::~dtor end(000001D05EDD2600)
+[05/10/23 12:01:17:540][440224][A]:(00005323): RhythmPlayerImpl::~RhythmPlayerImpl(this:000001D1640F58F0, void)
+[05/10/23 12:01:17:540][440224][A]:(00005324):   RhythmSoundMixer::stopSound(this:000001D14780A120, void)
+[05/10/23 12:01:17:540][440224][I]:[RPI]: RhythmSoundMixer is already stopped.
+[05/10/23 12:01:17:540][440224][A]:(00005325):   RhythmSoundDecoder::stopDecode(this:000001D13DF05660, void)
+[05/10/23 12:01:17:540][440224][I]:[RPI]: Call[first_media_player_source_->stop()].
+[05/10/23 12:01:17:540][440224][A]:(00005326):     RhythmSoundDecoder::setState(this:000001D13DF05660, void)
+[05/10/23 12:01:17:540][440224][I]:[RPI]: setState()-index[1], state[0].
+[05/10/23 12:01:17:540][257912][A]:(00005327): MediaPlayerImpl::stop(this:000001D05C41A260, void)
+[05/10/23 12:01:17:540][257912][I]:media_player_impl.cpp:1347@stop|000001D05C41A260|mpk#1>> start
+[05/10/23 12:01:17:540][257912][I]:[MPI]: need to send lastframe: 0
+[05/10/23 12:01:17:540][257912][I]:[MPI]: removeAllPreloadSource 0
+[05/10/23 12:01:17:540][257912][I]: [MPI] over
+[05/10/23 12:01:17:540][257912][A]:(00005328):   MediaPlayerImpl::setRenderLastVideoFrame(this:000001D05C41A260, void)
+[05/10/23 12:01:17:540][440224][I]:[RPI]: Call[second_media_player_source_->stop()].
+[05/10/23 12:01:17:540][440224][A]:(00005329):     RhythmSoundDecoder::setState(this:000001D13DF05660, void)
+[05/10/23 12:01:17:540][440224][I]:[RPI]: setState()-index[2], state[0].
+[05/10/23 12:01:17:540][257912][A]:(00005330): MediaPlayerImpl::stop(this:000001D05C41A600, void)
+[05/10/23 12:01:17:540][257912][I]:media_player_impl.cpp:1347@stop|000001D05C41A600|mpk#2>> start
+[05/10/23 12:01:17:540][257912][I]:[MPI]: need to send lastframe: 0
+[05/10/23 12:01:17:540][257912][I]:[MPI]: removeAllPreloadSource 0
+[05/10/23 12:01:17:540][257912][I]: [MPI] over
+[05/10/23 12:01:17:540][257912][A]:(00005331):   MediaPlayerImpl::setRenderLastVideoFrame(this:000001D05C41A600, void)
+[05/10/23 12:01:17:540][440224][A]:(00005332):   RhythmSoundDecoder::unregisterObserver(this:000001D13DF05660, void)
+[05/10/23 12:01:17:540][440224][A]:(00005333): RhythmSoundMixer::~RhythmSoundMixer(this:000001D14780A120, void)
+[05/10/23 12:01:17:540][440224][W]:[LATP]: Local audio pcm track has not been published
+[05/10/23 12:01:17:540][440224][A]:(00005334): LocalAudioTrackPcmImpl::enableLocalPlayback(this:000001D15A6E4D20, enable:0, sync:0)
+[05/10/23 12:01:17:540][440224][A]:(00005335):   LocalAudioTrackImpl::enableLocalPlayback(this:000001D15A6E4D20, enable:0, sync:0)
+[05/10/23 12:01:17:540][440224][A]:(00005336):   LocalAudioTrackPcmImpl::disableLocalPlayback(this:000001D15A6E4D20, void)
+[05/10/23 12:01:17:540][440224][E]:[LATP]: local playback has been disabled.
+[05/10/23 12:01:17:540][440224][I]:[APS]: AudioPcmSource::~dtor(000001D06453B190)
+[05/10/23 12:01:17:540][440224][A]:(00005337): IAudioFilterComposite::removeAllAudioFilters(this:000001D05F9A0250, void)
+[05/10/23 12:01:17:540][440224][A]:(00005338): IAudioFilterComposite::removeAllAudioFilters(this:000001D05F99F590, void)
+[05/10/23 12:01:17:540][440224][A]:(00005339): IAudioFilterComposite::removeAllAudioFilters(this:000001D05F9A0490, void)
+[05/10/23 12:01:17:540][440224][A]:(00005340): RhythmSoundDecoder::~RhythmSoundDecoder(this:000001D13DF05660, void)
+[05/10/23 12:01:17:540][440224][A]:(00005341):   MediaPlayerSourceFFMpeg::unregisterPlayerSourceObserver(this:000001D064B2B140, observer: 000001D154FB40B0)
+[05/10/23 12:01:17:540][440224][A]:(00005342):   MediaPlayerSourceFFMpeg::unregisterPlayerSourceObserver(this:000001D064B2AE80, observer: 000001D154FB3AD0)
+[05/10/23 12:01:17:540][440224][W]:[LATP]: Local audio pcm track has not been published
+[05/10/23 12:01:17:540][440224][A]:(00005343): LocalAudioTrackPcmImpl::enableLocalPlayback(this:000001D15A6E4140, enable:0, sync:0)
+[05/10/23 12:01:17:540][440224][A]:(00005344):   LocalAudioTrackImpl::enableLocalPlayback(this:000001D15A6E4140, enable:0, sync:0)
+[05/10/23 12:01:17:540][440224][A]:(00005345):   LocalAudioTrackPcmImpl::disableLocalPlayback(this:000001D15A6E4140, void)
+[05/10/23 12:01:17:540][440224][E]:[LATP]: local playback has been disabled.
+[05/10/23 12:01:17:540][440224][I]:[APS]: AudioPcmSource::~dtor(000001D064535160)
+[05/10/23 12:01:17:540][440224][A]:(00005346): IAudioFilterComposite::removeAllAudioFilters(this:000001D05F9A03D0, void)
+[05/10/23 12:01:17:540][440224][A]:(00005347): IAudioFilterComposite::removeAllAudioFilters(this:000001D05F99EB10, void)
+[05/10/23 12:01:17:540][440224][A]:(00005348): IAudioFilterComposite::removeAllAudioFilters(this:000001D05F99EC90, void)
+[05/10/23 12:01:17:541][257912][A]:(00005349): MediaPlayerImpl::stop(this:000001D05C41A600, void)
+[05/10/23 12:01:17:541][257912][I]:media_player_impl.cpp:1347@stop|000001D05C41A600|mpk#2>> start
+[05/10/23 12:01:17:541][257912][I]:[MPI]: need to send lastframe: 0
+[05/10/23 12:01:17:541][257912][I]:[MPI]: removeAllPreloadSource 0
+[05/10/23 12:01:17:541][257912][I]: [MPI] over
+[05/10/23 12:01:17:541][257912][A]:(00005350):   MediaPlayerImpl::setRenderLastVideoFrame(this:000001D05C41A600, void)
+[05/10/23 12:01:17:541][257912][A]:(00005351): MediaPlayerImpl::unregisterAudioFrameObserver(this:000001D05C41A600, observer:000001D064B2AE90)
+[05/10/23 12:01:17:541][257912][A]:(00005352): MediaPlayerImpl::unregisterVideoFrameObserver(this:000001D05C41A600, observer:000001D064B2AE88)
+[05/10/23 12:01:17:541][257912][A]:(00005353): MediaPlayerImpl::unregisterPlayerSourceObserver(this:000001D05C41A600, observer:000001D064B2AE80)
+[05/10/23 12:01:17:541][257912][A]:(00005354): MediaPlayerImpl::release(this:000001D05C41A600, this:000001D05C41A600)
+[05/10/23 12:01:17:541][257912][A]:(00005355):   MediaPlayerImpl::stop(this:000001D05C41A600, void)
+[05/10/23 12:01:17:541][257912][I]:media_player_impl.cpp:1347@stop|000001D05C41A600|mpk#2>> start
+[05/10/23 12:01:17:541][257912][I]:[MPI]: need to send lastframe: 0
+[05/10/23 12:01:17:541][257912][I]:[MPI]: removeAllPreloadSource 0
+[05/10/23 12:01:17:541][257912][I]: [MPI] over
+[05/10/23 12:01:17:541][257912][A]:(00005356):     MediaPlayerImpl::setRenderLastVideoFrame(this:000001D05C41A600, void)
+[05/10/23 12:01:17:541][257912][I]:media_player_impl.cpp:503@destroy|000001D05C41A600|mpk#2>> start
+[05/10/23 12:01:17:541][257912][I]:media_player_impl.cpp:511@destroy|000001D05C41A600|mpk#2>> end
+[05/10/23 12:01:17:541][257912][W]:media_player_source_ffmpeg.cc:125@~MediaPlayerSourceFfmpeg|000001D154866EB0|mpk#2>> dtor of MediaPlayerSourceFfmpeg begin
+[05/10/23 12:01:17:541][257912][I]:media_player_source_ffmpeg.cc:1641@StopSyncHelper|000001D154866EB0|mpk#2>> StopSyncHelper begin
+[05/10/23 12:01:17:541][257912][I]:media_player_source_ffmpeg.cc:1657@StopSyncHelper|000001D154866EB0|mpk#2>> StopSyncHelper reader thread stop begin
+[05/10/23 12:01:17:541][257912][I]:media_player_source_ffmpeg.cc:1659@StopSyncHelper|000001D154866EB0|mpk#2>> StopSyncHelper reader thread stop end
+[05/10/23 12:01:17:541][257912][I]:media_player_source_ffmpeg.cc:1663@StopSyncHelper|000001D154866EB0|mpk#2>> StopSyncHelper sync thread stop begin
+[05/10/23 12:01:17:541][257912][I]:media_player_source_ffmpeg.cc:1665@StopSyncHelper|000001D154866EB0|mpk#2>> StopSyncHelper sync thread stop end
+[05/10/23 12:01:17:541][257912][I]:media_player_source_ffmpeg.cc:1681@operator ()|000001D154866EB0|mpk#2>> StopSyncHelper reader CloseAvFormatInput
+[05/10/23 12:01:17:541][257912][I]:media_player_source_ffmpeg.cc:1686@StopSyncHelper|000001D154866EB0|mpk#2>> StopSyncHelper all threads stopped
+[05/10/23 12:01:17:541][257912][I]:media_player_source_ffmpeg.cc:1699@StopSyncHelper|000001D154866EB0|mpk#2>> StopSyncHelper end
+[05/10/23 12:01:17:541][257912][I]:media_player_source_ffmpeg.cc:149@~MediaPlayerSourceFfmpeg|000001D154866EB0|mpk#2>> ~MediaPlayerSourceFfmpeg
+[05/10/23 12:01:17:541][257912][I]:media_stream_sync_impl.cc:223@~MediaStreamSyncImpl|000001D063A5C4D0|mpk#2>> dtor of MediaStreamSyncImpl
+[05/10/23 12:01:17:541][257912][I]:media_reader_impl.cc:137@~MediaReaderImpl|000001D05CF9E090|mpk#2>> ~MediaReaderImpl
+[05/10/23 12:01:17:541][257912][I]:media_player_impl.cpp:500@~MediaPlayerImpl|000001D05C41A600|mpk#2>> ~MediaPlayerImpl
+[05/10/23 12:01:17:541][440224][W]:[LATP]: Local audio pcm track has not been published
+[05/10/23 12:01:17:541][440224][A]:(00005357): LocalAudioTrackPcmImpl::enableLocalPlayback(this:000001D15A6E3EE0, enable:0, sync:0)
+[05/10/23 12:01:17:541][440224][A]:(00005358):   LocalAudioTrackImpl::enableLocalPlayback(this:000001D15A6E3EE0, enable:0, sync:0)
+[05/10/23 12:01:17:541][440224][A]:(00005359):   LocalAudioTrackPcmImpl::disableLocalPlayback(this:000001D15A6E3EE0, void)
+[05/10/23 12:01:17:541][440224][E]:[LATP]: local playback has been disabled.
+[05/10/23 12:01:17:541][440224][I]:[APS]: AudioPcmSource::~dtor(000001D06452D120)
+[05/10/23 12:01:17:541][440224][A]:(00005360): IAudioFilterComposite::removeAllAudioFilters(this:000001D05F99EBD0, void)
+[05/10/23 12:01:17:541][440224][A]:(00005361): IAudioFilterComposite::removeAllAudioFilters(this:000001D05F99EA50, void)
+[05/10/23 12:01:17:541][440224][A]:(00005362): IAudioFilterComposite::removeAllAudioFilters(this:000001D05F99EF90, void)
+[05/10/23 12:01:17:541][257912][A]:(00005363): MediaPlayerImpl::stop(this:000001D05C41A260, void)
+[05/10/23 12:01:17:541][257912][I]:media_player_impl.cpp:1347@stop|000001D05C41A260|mpk#1>> start
+[05/10/23 12:01:17:541][257912][I]:[MPI]: need to send lastframe: 0
+[05/10/23 12:01:17:541][257912][I]:[MPI]: removeAllPreloadSource 0
+[05/10/23 12:01:17:541][257912][I]: [MPI] over
+[05/10/23 12:01:17:541][257912][A]:(00005364):   MediaPlayerImpl::setRenderLastVideoFrame(this:000001D05C41A260, void)
+[05/10/23 12:01:17:541][257912][A]:(00005365): MediaPlayerImpl::unregisterAudioFrameObserver(this:000001D05C41A260, observer:000001D064B2B150)
+[05/10/23 12:01:17:541][257912][A]:(00005366): MediaPlayerImpl::unregisterVideoFrameObserver(this:000001D05C41A260, observer:000001D064B2B148)
+[05/10/23 12:01:17:541][257912][A]:(00005367): MediaPlayerImpl::unregisterPlayerSourceObserver(this:000001D05C41A260, observer:000001D064B2B140)
+[05/10/23 12:01:17:541][257912][A]:(00005368): MediaPlayerImpl::release(this:000001D05C41A260, this:000001D05C41A260)
+[05/10/23 12:01:17:541][257912][A]:(00005369):   MediaPlayerImpl::stop(this:000001D05C41A260, void)
+[05/10/23 12:01:17:541][257912][I]:media_player_impl.cpp:1347@stop|000001D05C41A260|mpk#1>> start
+[05/10/23 12:01:17:541][257912][I]:[MPI]: need to send lastframe: 0
+[05/10/23 12:01:17:541][257912][I]:[MPI]: removeAllPreloadSource 0
+[05/10/23 12:01:17:541][257912][I]: [MPI] over
+[05/10/23 12:01:17:541][257912][A]:(00005370):     MediaPlayerImpl::setRenderLastVideoFrame(this:000001D05C41A260, void)
+[05/10/23 12:01:17:541][257912][I]:media_player_impl.cpp:503@destroy|000001D05C41A260|mpk#1>> start
+[05/10/23 12:01:17:541][257912][I]:media_player_impl.cpp:511@destroy|000001D05C41A260|mpk#1>> end
+[05/10/23 12:01:17:541][257912][W]:media_player_source_ffmpeg.cc:125@~MediaPlayerSourceFfmpeg|000001D1548663D0|mpk#1>> dtor of MediaPlayerSourceFfmpeg begin
+[05/10/23 12:01:17:541][257912][I]:media_player_source_ffmpeg.cc:1641@StopSyncHelper|000001D1548663D0|mpk#1>> StopSyncHelper begin
+[05/10/23 12:01:17:541][257912][I]:media_player_source_ffmpeg.cc:1657@StopSyncHelper|000001D1548663D0|mpk#1>> StopSyncHelper reader thread stop begin
+[05/10/23 12:01:17:541][257912][I]:media_player_source_ffmpeg.cc:1659@StopSyncHelper|000001D1548663D0|mpk#1>> StopSyncHelper reader thread stop end
+[05/10/23 12:01:17:541][257912][I]:media_player_source_ffmpeg.cc:1663@StopSyncHelper|000001D1548663D0|mpk#1>> StopSyncHelper sync thread stop begin
+[05/10/23 12:01:17:541][257912][I]:media_player_source_ffmpeg.cc:1665@StopSyncHelper|000001D1548663D0|mpk#1>> StopSyncHelper sync thread stop end
+[05/10/23 12:01:17:541][257912][I]:media_player_source_ffmpeg.cc:1681@operator ()|000001D1548663D0|mpk#1>> StopSyncHelper reader CloseAvFormatInput
+[05/10/23 12:01:17:541][257912][I]:media_player_source_ffmpeg.cc:1686@StopSyncHelper|000001D1548663D0|mpk#1>> StopSyncHelper all threads stopped
+[05/10/23 12:01:17:541][257912][I]:media_player_source_ffmpeg.cc:1699@StopSyncHelper|000001D1548663D0|mpk#1>> StopSyncHelper end
+[05/10/23 12:01:17:541][257912][I]:media_player_source_ffmpeg.cc:149@~MediaPlayerSourceFfmpeg|000001D1548663D0|mpk#1>> ~MediaPlayerSourceFfmpeg
+[05/10/23 12:01:17:541][257912][I]:media_stream_sync_impl.cc:223@~MediaStreamSyncImpl|000001D16005B3C0|mpk#1>> dtor of MediaStreamSyncImpl
+[05/10/23 12:01:17:541][257912][I]:media_reader_impl.cc:137@~MediaReaderImpl|000001D05CF9E860|mpk#1>> ~MediaReaderImpl
+[05/10/23 12:01:17:541][257912][I]:media_player_impl.cpp:500@~MediaPlayerImpl|000001D05C41A260|mpk#1>> ~MediaPlayerImpl
+[05/10/23 12:01:17:541][440224][A]:(00005371): AgoraService::unregisterAgoraServiceObserver(this:000001D154433820, observer:000001D05C3FBAE0)
+[05/10/23 12:01:17:541][440224][A]:(00005372): RtcEngine::stopService(this:000001D146E258E0, waitForAll:0)
+[05/10/23 12:01:17:541][440224][A]:(00005373):   AgoraService::release(this:000001D154433820, void)
+[05/10/23 12:01:17:541][440224][I]:AgoraService::cleanup video cache
+[05/10/23 12:01:17:541][440224][I]:AgoraService::release CleanupService
+[05/10/23 12:01:17:542][440224][I]:PrepareUnInit enter...
+[05/10/23 12:01:17:542][440224][I]:int __cdecl agora::rtc::AudioDeviceEventManager::PrepareUnInitInternal(void): stop internal thread before uninit 
+[05/10/23 12:01:17:542][440224][I]:PrepareUnInit exit...
+[05/10/23 12:01:17:542][440224][W]:[AOE]: Reset audio state
+[05/10/23 12:01:17:542][440224][I]:AudioDeviceEventManager: ~AudioDeviceEventManager
+[05/10/23 12:01:17:542][440224][I]:(audio_device_impl.cc:1132): webrtc::AudioDeviceModuleImpl::RegisterAudioDeviceEventObserver
+[05/10/23 12:01:17:542][440224][I]:(audio_device_generic_worker_wrapper.cc:1158): webrtc::AudioDeviceGenericWorkerWrapper::RegisterAudioDeviceEventObserver
+[05/10/23 12:01:17:542][440224][I]:AudioDeviceEventHandlerWin: ~AudioDeviceEventHandlerWin
+[05/10/23 12:01:17:542][440224][I]:AudioDeviceEventObserver: ~AudioDeviceEventObserver
+[05/10/23 12:01:17:542][440224][I]:(audio_device_impl.cc:351): webrtc::AudioDeviceModuleImpl::Terminate
+[05/10/23 12:01:17:542][440224][W]:(audio_device_generic_worker_wrapper.cc:254): Terminate
+[05/10/23 12:01:17:542][378368][I]:(audio_device_core_win.cc:493): [WIN_CORE] ~AudioDeviceWindowsCoreChromium: 
+[05/10/23 12:01:17:542][378368][I]:(audio_device_core_win.cc:578): [WIN_CORE] Terminate: ADM is not Init
+[05/10/23 12:01:17:542][440224][I]:(audio_device_impl.cc:1118): webrtc::AudioDeviceModuleImpl::RegisterAudioCallback
+[05/10/23 12:01:17:542][440224][I]:(audio_device_buffer.cc:92): webrtc::AudioDeviceBuffer::RegisterAudioCallback
+[05/10/23 12:01:17:542][440224][I]:(audio_device_buffer.cc:92): webrtc::AudioDeviceBuffer::RegisterAudioCallback
+[05/10/23 12:01:17:542][440224][A]:(00005374):     IAudioFilterComposite::removeAudioFilter(this:000001D0660767C0, filter: 000001D05F99FA10)
+[05/10/23 12:01:17:542][440224][I]:(audio_transport_impl.cc:163): SetPlaybackDataExtraProcessing processing = 0000000000000000.
+[05/10/23 12:01:17:542][440224][I]:(audio_transport_impl.cc:155): SetRecordedDataExtraProcessing processing = 0000000000000000.
+[05/10/23 12:01:17:542][440224][I]:(audio_transport_impl.cc:170): SetRecordedDataExtraProcessingEnable enable = 0.
+[05/10/23 12:01:17:543][440224][I]:(audio_device_buffer.cc:92): webrtc::AudioDeviceBuffer::RegisterAudioCallback
+[05/10/23 12:01:17:543][440224][A]:(00005375):     IAudioFilterComposite::removeAudioFilter(this:000001D0660767C0, filter: 000001D05F99FA10)
+[05/10/23 12:01:17:543][440224][E]:[AFC]: failed to find the to be removed audio filter remote_mixed_playback.
+[05/10/23 12:01:17:543][440224][I]:(audio_transport_impl.cc:163): SetPlaybackDataExtraProcessing processing = 0000000000000000.
+[05/10/23 12:01:17:543][440224][I]:(audio_transport_impl.cc:155): SetRecordedDataExtraProcessing processing = 0000000000000000.
+[05/10/23 12:01:17:543][440224][I]:(audio_transport_impl.cc:170): SetRecordedDataExtraProcessingEnable enable = 0.
+[05/10/23 12:01:17:543][440224][I]:(audio_device_buffer.cc:86): AudioDeviceBuffer::~dtor
+[05/10/23 12:01:17:543][440224][A]:(00005376):     IAudioFilterComposite::removeAllAudioFilters(this:000001D066076870, void)
+[05/10/23 12:01:17:544][440224][A]:(00005377):     IAudioFilterComposite::removeAllAudioFilters(this:000001D0660767C0, void)
+[05/10/23 12:01:17:544][440224][I]:[RsmpStc]: ResampleStatistic::~dtor 000001D164378820
+[05/10/23 12:01:17:544][440224][I]:[RsmpStc]: ResampleStatistic::~dtor 000001D1643787D0
+[05/10/23 12:01:17:544][440224][I]:AudioDeviceModuleWrapper: ~AudioDeviceModuleWrapper
+[05/10/23 12:01:17:544][440224][I]:(audio_device_impl.cc:1100): webrtc::AudioDeviceModuleImpl::StopRecording
+[05/10/23 12:01:17:544][440224][I]:(audio_device_impl.cc:1068): webrtc::AudioDeviceModuleImpl::StopPlayout
+[05/10/23 12:01:17:544][440224][I]:(audio_device_impl.cc:1118): webrtc::AudioDeviceModuleImpl::RegisterAudioCallback
+[05/10/23 12:01:17:544][440224][I]:(audio_device_buffer.cc:92): webrtc::AudioDeviceBuffer::RegisterAudioCallback
+[05/10/23 12:01:17:544][440224][I]:(audio_device_impl.cc:351): webrtc::AudioDeviceModuleImpl::Terminate
+[05/10/23 12:01:17:544][440224][I]:(audio_device_impl.cc:234): webrtc::AudioDeviceModuleImpl::~AudioDeviceModuleImpl
+[05/10/23 12:01:17:544][440224][I]:(audio_device_impl.cc:351): webrtc::AudioDeviceModuleImpl::Terminate
+[05/10/23 12:01:17:544][440224][W]:(audio_device_generic_worker_wrapper.cc:217): dtor
+[05/10/23 12:01:17:544][440224][I]:(audio_device_buffer.cc:86): AudioDeviceBuffer::~dtor
+[05/10/23 12:01:17:545][440224][I]:[BS]: Cleanup ServiceEnvironment[Phase-0]
+[05/10/23 12:01:17:545][440224][I]:[RERA]: ~RtcEventReporterArgus
+[05/10/23 12:01:17:545][440224][I]:[RCRA]: ~RtcStatsReporterArgus
+[05/10/23 12:01:17:545][440224][I]:[RS]: **report stats: seq: 1, report list size 0, tx/rx: 0/48, cache size: 0
+[05/10/23 12:01:17:545][440224][I]:[11251465518633334054|remote:129.******.98:8130] destroy session 000001D0933D5230
+[05/10/23 12:01:17:545][440224][I]:[11251465518633334054|remote:129.******.98:8130] start last ack, duration: 2000 ms
+[05/10/23 12:01:17:545][440224][I]:destroy session builder 000001D1610A6C20
+[05/10/23 12:01:17:545][440224][I]:[11251465518633334054|remote:129.******.98:8130] destroy connection 000001D0933D5B50
+[05/10/23 12:01:17:545][440224][I]:[11251465518633334054|remote:129.******.98:8130] destroy path 000001D117701CD0
+[05/10/23 12:01:17:545][318160][W]:[BW]: (long time task) [AgMajor --> AgEventListner] native_event_listener_win.cpp:73: pickup time 0, execute time 15485, overall time 15485
+[05/10/23 12:01:17:546][440224][I]:[CM]: succeeded to flush to Cache File Manager in ReportCacheDocument::Pack()(), elapsed 0
+[05/10/23 12:01:17:546][440224][I]:XdumpHandler: ~XdumpHandler
+[05/10/23 12:01:17:546][440224][I]:[PIP]: ~PredefineIpList
+[05/10/23 12:01:17:546][440224][I]:[CS]: ~ConfigService
+[05/10/23 12:01:17:546][440224][I]:[BS]: Cleanup ServiceEnvironment[Phase-1]
+[05/10/23 12:01:17:546][440224][I]:[BS]: Cleanup ServiceEnvironment[Phase-2]
+[05/10/23 12:01:17:546][440224][A]:(00005378):     AgoraService::~AgoraService(this:000001D154433820, void)
+[05/10/23 12:01:17:546][440224][I]:MediaNodeFactoryImpl: ~MediaNodeFactoryImpl
+[05/10/23 12:01:17:546][134260][I]:(d3d_renderer.cc:223): ~D3dRenderer : 000001D164C98090
+[05/10/23 12:01:17:546][134260][I]:[VRW]: destructor
+[05/10/23 12:01:17:546][642324][I]:(d3d_renderer.cc:223): ~D3dRenderer : 000001D164C98600
+[05/10/23 12:01:17:547][642324][I]:[VRW]: destructor
+[05/10/23 12:01:17:547][440224][I]:AudioDeviceManagerImpl: ~AudioDeviceManagerImpl
+[05/10/23 12:01:17:547][440224][I]:Log service is shutting down.
+[05/10/23 12:01:17:547][440224][I]:[log_stat_count] request: 90269, should: 28128, lost: 0
