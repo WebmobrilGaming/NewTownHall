@@ -83,7 +83,10 @@ namespace Agora.Rtc
         {
             try
             {
-                _texture = new Texture2D(_videoPixelWidth, _videoPixelHeight, TextureFormat.RGBA32, false);
+                int width = Mathf.Max(1, _videoPixelWidth);
+                int height = Mathf.Max(1, _videoPixelHeight);
+
+                _texture = new Texture2D(width, height, TextureFormat.RGBA32, false);
                 _texture.Apply();
             }
             catch (Exception e)
@@ -94,13 +97,16 @@ namespace Agora.Rtc
 
         internal virtual void InitIrisVideoFrame()
         {
+            int width = Mathf.Max(1, _videoPixelWidth);
+            int height = Mathf.Max(1, _videoPixelHeight);
+
             _cachedVideoFrame = new IrisVideoFrame
             {
                 type = VIDEO_OBSERVER_FRAME_TYPE.FRAME_TYPE_RGBA,
-                yStride = _videoPixelWidth * 4,
-                height = _videoPixelHeight,
-                width = _videoPixelWidth,
-                yBuffer = Marshal.AllocHGlobal(_videoPixelWidth * _videoPixelHeight * 4)
+                yStride = width * 4,
+                height = height,
+                width = width,
+                yBuffer = Marshal.AllocHGlobal(width * height * 4)
             };
         }
 
@@ -144,9 +150,32 @@ namespace Agora.Rtc
                 //AgoraLog.LogWarning(string.Format("no video frame for user channel: {0} uid: {1}", _channelId, _uid));
                 return;
             }
-            else if (ret == IRIS_VIDEO_PROCESS_ERR.ERR_FRAM_TYPE_NOT_MATCHING) {
-                _canAttach = false;
-                AgoraLog.LogWarning("RGBA ERR_FRAM_TYPE_NOT_MATCHING: may be you use both VideoSurface.cs and VideoSurfaceYUV.cs in same");
+            else if (ret == IRIS_VIDEO_PROCESS_ERR.ERR_FRAM_TYPE_NOT_MATCHING) 
+            {
+
+                _videoPixelWidth = _cachedVideoFrame.width;
+                _videoPixelHeight = _cachedVideoFrame.height;
+
+                FreeMemory();
+
+                _cachedVideoFrame.type = VIDEO_OBSERVER_FRAME_TYPE.FRAME_TYPE_RGBA;
+                _cachedVideoFrame.yStride = _videoPixelWidth * 4;
+                _cachedVideoFrame.height = _videoPixelHeight;
+                _cachedVideoFrame.width = _videoPixelWidth;
+                _cachedVideoFrame.yBuffer =
+                    Marshal.AllocHGlobal(_videoPixelWidth * _videoPixelHeight * 4);
+
+                if (_texture == null)
+                {
+                    _texture = new Texture2D(
+                        Mathf.Max(1, _videoPixelWidth),
+                        Mathf.Max(1, _videoPixelHeight),
+                        TextureFormat.RGBA32,
+                        false);
+
+                    _texture.Apply();
+                }
+
                 return;
             }
             else if (ret == IRIS_VIDEO_PROCESS_ERR.ERR_SIZE_NOT_MATCHING)
@@ -177,6 +206,12 @@ namespace Agora.Rtc
                         _texture.Reinitialize(_videoPixelWidth, _videoPixelHeight);
                         _texture.Apply();
                         _needResize = false;
+                    }
+
+                    if (_texture == null)
+                    {
+                        Debug.LogError("Texture is null !!!!");
+                        return;
                     }
 
                     _texture.LoadRawTextureData(_cachedVideoFrame.yBuffer,

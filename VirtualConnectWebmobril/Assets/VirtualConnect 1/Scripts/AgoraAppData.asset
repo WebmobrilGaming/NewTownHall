@@ -12,6 +12,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 310468f085ef24732beac714c9bb64fd, type: 3}
   m_Name: AgoraAppData
   m_EditorClassIdentifier: 
-  appID: 21040d9232fd432b816f79de009cafa0
-  token: 007eJxTYNBJmKyWwlh0ctXsD23lOfz60x4/1A3fqmET/tZVXHpnWJsCg5GhgYlBiqWRsVFaiomxUZKFoVmauWVKqoGBZXJiWqJBdVpKSkMgI8OFlYcYGRkgEMRnYQhJLS5hYAAAvGUd/A==
+  appID: 69dadc584171400780195ed1594c4bb6
+  token: 007eJxTYAi2itOseFXXOkvLLGbbOx3R1rhHjxcsrd87o+H19BOLnikqMJhZpiSmJJtamBiaG5oYGJhbGBhamqamGJpamiSbJCWZ/QrVzGoIZGQwOcTOxMgAgSA+C0NIanEJAwMActQfig==
   channelName: Test
