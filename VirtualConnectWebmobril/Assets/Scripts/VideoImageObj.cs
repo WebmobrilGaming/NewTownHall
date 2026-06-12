@@ -23,7 +23,6 @@ public class VideoImageObj : MonoBehaviour
         videoImgButton.onClick.RemoveListener(VideoImgButtonClicked);
     }
 
-
     void VideoImgButtonClicked()
     {
         Debug.Log("Video Image Button Clicked!");
